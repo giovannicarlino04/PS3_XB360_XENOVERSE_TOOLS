@@ -1,1 +1,0 @@
-This tool allows to completely convert a path (recursively) from LE to BE and vice-versa, since Xenoverse on PS3 and XBOX 360 is Big Endian, you should use it with the path of a mod
