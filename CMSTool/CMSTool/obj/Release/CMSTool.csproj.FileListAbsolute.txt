@@ -17,3 +17,13 @@ C:\Users\Giovanni\Desktop\XB360_XENO_TOOLS\CMSTool\CMSTool\obj\Release\CMSTool.p
 C:\Users\Giovanni\Desktop\XB360_XENO_TOOLS\CMSTool\CMSTool\bin\Release\CMSTool.exe.config
 C:\Users\Giovanni\Desktop\XB360_XENO_TOOLS\CMSTool\CMSTool\bin\Release\CMSTool.exe
 C:\Users\Giovanni\Desktop\XB360_XENO_TOOLS\CMSTool\CMSTool\bin\Release\CMSTool.pdb
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\CMSTool\CMSTool\bin\Release\CMSTool.exe.config
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\CMSTool\CMSTool\bin\Release\CMSTool.exe
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\CMSTool\CMSTool\bin\Release\CMSTool.pdb
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\CMSTool\CMSTool\obj\Release\CMSTool.csproj.AssemblyReference.cache
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\CMSTool\CMSTool\obj\Release\CMSTool.Form1.resources
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\CMSTool\CMSTool\obj\Release\CMSTool.Properties.Resources.resources
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\CMSTool\CMSTool\obj\Release\CMSTool.csproj.GenerateResource.cache
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\CMSTool\CMSTool\obj\Release\CMSTool.csproj.CoreCompileInputs.cache
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\CMSTool\CMSTool\obj\Release\CMSTool.exe
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\CMSTool\CMSTool\obj\Release\CMSTool.pdb

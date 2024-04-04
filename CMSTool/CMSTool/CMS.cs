@@ -89,7 +89,7 @@ namespace CMSTool
             int wordstartposition = 16 + (Data.Length * 80);
             using (bw = new BinaryWriter(File.Create(FileName)))
             {
-                bw.Write(new byte[] { 0x23, 0x43, 0x4D, 0x53, 0xFE, 0xFF, 0x00, 0x00 });
+                bw.Write(new byte[] { 0x23, 0x43, 0x4D, 0x53, 0xFF, 0xFE, 0x00, 0x00 });
                 bw.Write(ReverseBytes(Data.Length));
                 bw.Write(ReverseBytes((int)16));
                 bw.Seek(wordstartposition, SeekOrigin.Begin);
@@ -109,18 +109,19 @@ namespace CMSTool
                     bw.Write(Data[i].Unknown);
                     bw.Write(new byte[] { 0xFF, 0xFF });
                     bw.BaseStream.Seek(6, SeekOrigin.Current);
-                    bw.Write(ReverseBytes(wordAddress[CmnText.IndexOf(Data[i].Paths[0])]));
-                    bw.Write(ReverseBytes(wordAddress[CmnText.IndexOf(Data[i].Paths[1])]));
+                    bw.Write((wordAddress[CmnText.IndexOf(Data[i].Paths[0])]));
+                    bw.Write((wordAddress[CmnText.IndexOf(Data[i].Paths[1])]));
                     bw.BaseStream.Seek(4, SeekOrigin.Current);
-                    bw.Write(ReverseBytes(wordAddress[CmnText.IndexOf(Data[i].Paths[2])]));
+                    bw.Write((wordAddress[CmnText.IndexOf(Data[i].Paths[2])]));
                     bw.BaseStream.Seek(8, SeekOrigin.Current);
-                    bw.Write(ReverseBytes(wordAddress[CmnText.IndexOf(Data[i].Paths[3])]));
-                    bw.Write(ReverseBytes(wordAddress[CmnText.IndexOf(Data[i].Paths[4])]));
-                    bw.Write(ReverseBytes(wordAddress[CmnText.IndexOf(Data[i].Paths[5])]));
-                    bw.Write(ReverseBytes(wordAddress[CmnText.IndexOf(Data[i].Paths[6])]));
+                    bw.Write((wordAddress[CmnText.IndexOf(Data[i].Paths[3])]));
+                    bw.Write((wordAddress[CmnText.IndexOf(Data[i].Paths[4])]));
+                    bw.Write((wordAddress[CmnText.IndexOf(Data[i].Paths[5])]));
+                    bw.Write((wordAddress[CmnText.IndexOf(Data[i].Paths[6])]));
                 }
             }
         }
+
 
         private static int ReverseBytes(int value)
         {
