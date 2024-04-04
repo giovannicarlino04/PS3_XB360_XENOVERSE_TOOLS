@@ -1,0 +1,9 @@
+c:\users\gaming-pc\documents\visual studio 2015\Projects\CMSTool\CMSTool\bin\Debug\CMSTool.exe.config
+C:\Users\gaming-pc\documents\visual studio 2015\Projects\CMSTool\CMSTool\bin\Debug\CMSTool.exe
+C:\Users\gaming-pc\documents\visual studio 2015\Projects\CMSTool\CMSTool\bin\Debug\CMSTool.pdb
+C:\Users\gaming-pc\documents\visual studio 2015\Projects\CMSTool\CMSTool\obj\Debug\CMSTool.csprojResolveAssemblyReference.cache
+C:\Users\gaming-pc\documents\visual studio 2015\Projects\CMSTool\CMSTool\obj\Debug\CMSTool.Form1.resources
+C:\Users\gaming-pc\documents\visual studio 2015\Projects\CMSTool\CMSTool\obj\Debug\CMSTool.Properties.Resources.resources
+C:\Users\gaming-pc\documents\visual studio 2015\Projects\CMSTool\CMSTool\obj\Debug\CMSTool.csproj.GenerateResource.Cache
+C:\Users\gaming-pc\documents\visual studio 2015\Projects\CMSTool\CMSTool\obj\Debug\CMSTool.exe
+C:\Users\gaming-pc\documents\visual studio 2015\Projects\CMSTool\CMSTool\obj\Debug\CMSTool.pdb
