@@ -1,0 +1,17 @@
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\AURTool\bin\Debug\net8.0-windows\AURTool.exe
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\AURTool\bin\Debug\net8.0-windows\AURTool.deps.json
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\AURTool\bin\Debug\net8.0-windows\AURTool.runtimeconfig.json
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\AURTool\bin\Debug\net8.0-windows\AURTool.dll
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\AURTool\bin\Debug\net8.0-windows\AURTool.pdb
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\AURTool\obj\Debug\net8.0-windows\AURTool.Form1.resources
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\AURTool\obj\Debug\net8.0-windows\AURTool.csproj.GenerateResource.cache
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\AURTool\obj\Debug\net8.0-windows\AURTool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\AURTool\obj\Debug\net8.0-windows\AURTool.AssemblyInfoInputs.cache
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\AURTool\obj\Debug\net8.0-windows\AURTool.AssemblyInfo.cs
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\AURTool\obj\Debug\net8.0-windows\AURTool.csproj.CoreCompileInputs.cache
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\AURTool\obj\Debug\net8.0-windows\AURTool.sourcelink.json
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\AURTool\obj\Debug\net8.0-windows\AURTool.dll
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\AURTool\obj\Debug\net8.0-windows\refint\AURTool.dll
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\AURTool\obj\Debug\net8.0-windows\AURTool.pdb
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\AURTool\obj\Debug\net8.0-windows\AURTool.genruntimeconfig.cache
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\AURTool\obj\Debug\net8.0-windows\ref\AURTool.dll
