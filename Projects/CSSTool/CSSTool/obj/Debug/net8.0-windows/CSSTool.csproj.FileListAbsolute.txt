@@ -1,0 +1,17 @@
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\CSSTool\CSSTool\bin\Debug\net8.0-windows\CSSTool.exe
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\CSSTool\CSSTool\bin\Debug\net8.0-windows\CSSTool.deps.json
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\CSSTool\CSSTool\bin\Debug\net8.0-windows\CSSTool.runtimeconfig.json
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\CSSTool\CSSTool\bin\Debug\net8.0-windows\CSSTool.dll
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\CSSTool\CSSTool\bin\Debug\net8.0-windows\CSSTool.pdb
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\CSSTool\CSSTool\obj\Debug\net8.0-windows\CSSTool.Form1.resources
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\CSSTool\CSSTool\obj\Debug\net8.0-windows\CSSTool.csproj.GenerateResource.cache
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\CSSTool\CSSTool\obj\Debug\net8.0-windows\CSSTool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\CSSTool\CSSTool\obj\Debug\net8.0-windows\CSSTool.AssemblyInfoInputs.cache
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\CSSTool\CSSTool\obj\Debug\net8.0-windows\CSSTool.AssemblyInfo.cs
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\CSSTool\CSSTool\obj\Debug\net8.0-windows\CSSTool.csproj.CoreCompileInputs.cache
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\CSSTool\CSSTool\obj\Debug\net8.0-windows\CSSTool.sourcelink.json
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\CSSTool\CSSTool\obj\Debug\net8.0-windows\CSSTool.dll
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\CSSTool\CSSTool\obj\Debug\net8.0-windows\refint\CSSTool.dll
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\CSSTool\CSSTool\obj\Debug\net8.0-windows\CSSTool.pdb
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\CSSTool\CSSTool\obj\Debug\net8.0-windows\CSSTool.genruntimeconfig.cache
+C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\CSSTool\CSSTool\obj\Debug\net8.0-windows\ref\CSSTool.dll
