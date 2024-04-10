@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0-windows7.0": {}
+    "net8.0-windows7.0": {
+      "XV360Lib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/XV360Lib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/XV360Lib.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "XV360Lib/1.0.0": {
+      "type": "project",
+      "path": "../XV360Lib/XV360Lib.csproj",
+      "msbuildProject": "../XV360Lib/XV360Lib.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0-windows7.0": []
+    "net8.0-windows7.0": [
+      "XV360Lib >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Giovanni\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\XV360Lib.csproj": {
+              "projectPath": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\XV360Lib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0647A453-E80B-406C-AB22-212896A05BD1}|XV360Lib\\XV360Lib.csproj|c:\\users\\giovanni\\desktop\\ps3_xb360_xenoverse_tools\\projects\\xv360tools\\xv360lib\\aur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0647A453-E80B-406C-AB22-212896A05BD1}|XV360Lib\\XV360Lib.csproj|solutionrelative:xv360lib\\aur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2B348CCB-A847-415B-A3CC-C77D079E6E2B}|AURTool\\AURTool.csproj|c:\\users\\giovanni\\desktop\\ps3_xb360_xenoverse_tools\\projects\\xv360tools\\aurtool\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B348CCB-A847-415B-A3CC-C77D079E6E2B}|AURTool\\AURTool.csproj|solutionrelative:aurtool\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B348CCB-A847-415B-A3CC-C77D079E6E2B}|AURTool\\AURTool.csproj|c:\\users\\giovanni\\desktop\\ps3_xb360_xenoverse_tools\\projects\\xv360tools\\aurtool\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2B348CCB-A847-415B-A3CC-C77D079E6E2B}|AURTool\\AURTool.csproj|solutionrelative:aurtool\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F0C3533-34E7-4240-B629-EEE3E20320A9}|CMSTool\\CMSTool.csproj|c:\\users\\giovanni\\desktop\\ps3_xb360_xenoverse_tools\\projects\\xv360tools\\cmstool\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F0C3533-34E7-4240-B629-EEE3E20320A9}|CMSTool\\CMSTool.csproj|solutionrelative:cmstool\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,46 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\CMSTool\\Form1.cs",
-              "RelativeDocumentMoniker": "CMSTool\\Form1.cs",
-              "ToolTip": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\CMSTool\\Form1.cs",
-              "RelativeToolTip": "CMSTool\\Form1.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAArwCgAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "AUR.cs",
+              "DocumentMoniker": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\AUR.cs",
+              "RelativeDocumentMoniker": "XV360Lib\\AUR.cs",
+              "ToolTip": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\AUR.cs",
+              "RelativeToolTip": "XV360Lib\\AUR.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAAAIEAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T19:19:27.073Z",
+              "WhenOpened": "2024-04-10T07:12:37.901Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\AURTool\\Form1.cs",
-              "RelativeDocumentMoniker": "AURTool\\Form1.cs",
-              "ToolTip": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\AURTool\\Form1.cs",
-              "RelativeToolTip": "AURTool\\Form1.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAA3wBUAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T20:36:03.393Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Progettazione]",
               "DocumentMoniker": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\AURTool\\Form1.cs",
               "RelativeDocumentMoniker": "AURTool\\Form1.cs",
               "ToolTip": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\AURTool\\Form1.cs [Progettazione]",
               "RelativeToolTip": "AURTool\\Form1.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T19:12:49.287Z",
+              "WhenOpened": "2024-04-10T07:08:21.388Z",
               "EditorCaption": " [Progettazione]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\AURTool\\Form1.cs",
+              "RelativeDocumentMoniker": "AURTool\\Form1.cs",
+              "ToolTip": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\AURTool\\Form1.cs",
+              "RelativeToolTip": "AURTool\\Form1.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA6wEoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T20:36:03.393Z"
             }
           ]
         }

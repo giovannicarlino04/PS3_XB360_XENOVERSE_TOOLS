@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CMSTool")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+205351217421c25ac3d421c80504f0d759b8df21")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30523a9a2ccf1cd28b41efc7462fb31f5c856d8b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CMSTool")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CMSTool")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

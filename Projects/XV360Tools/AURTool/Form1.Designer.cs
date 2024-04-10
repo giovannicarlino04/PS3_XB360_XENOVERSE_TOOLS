@@ -34,15 +34,18 @@
             saveToolStripMenuItem = new ToolStripMenuItem();
             toolStripSeparator1 = new ToolStripSeparator();
             exitToolStripMenuItem = new ToolStripMenuItem();
-            comboBox1 = new ComboBox();
-            textBox1 = new TextBox();
-            label1 = new Label();
-            label2 = new Label();
             toolsToolStripMenuItem = new ToolStripMenuItem();
             addCharacterToolStripMenuItem = new ToolStripMenuItem();
             removeCharacterToolStripMenuItem = new ToolStripMenuItem();
-            textBox2 = new TextBox();
+            cbChar = new ComboBox();
+            txtAuraID = new TextBox();
+            label1 = new Label();
+            label2 = new Label();
+            txtCharID = new TextBox();
             label3 = new Label();
+            label4 = new Label();
+            txtCostID = new TextBox();
+            checkBox1 = new CheckBox();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -51,7 +54,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem, toolsToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(291, 24);
+            menuStrip1.Size = new Size(588, 24);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -65,61 +68,28 @@
             // openToolStripMenuItem
             // 
             openToolStripMenuItem.Name = "openToolStripMenuItem";
-            openToolStripMenuItem.Size = new Size(180, 22);
+            openToolStripMenuItem.Size = new Size(103, 22);
             openToolStripMenuItem.Text = "Open";
             openToolStripMenuItem.Click += openToolStripMenuItem_Click;
             // 
             // saveToolStripMenuItem
             // 
             saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            saveToolStripMenuItem.Size = new Size(180, 22);
+            saveToolStripMenuItem.Size = new Size(103, 22);
             saveToolStripMenuItem.Text = "Save";
             saveToolStripMenuItem.Click += saveToolStripMenuItem_Click;
             // 
             // toolStripSeparator1
             // 
             toolStripSeparator1.Name = "toolStripSeparator1";
-            toolStripSeparator1.Size = new Size(177, 6);
+            toolStripSeparator1.Size = new Size(100, 6);
             // 
             // exitToolStripMenuItem
             // 
             exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            exitToolStripMenuItem.Size = new Size(180, 22);
+            exitToolStripMenuItem.Size = new Size(103, 22);
             exitToolStripMenuItem.Text = "Exit";
             exitToolStripMenuItem.Click += exitToolStripMenuItem_Click;
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(12, 54);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(60, 23);
-            comboBox1.TabIndex = 1;
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(184, 54);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(85, 23);
-            textBox1.TabIndex = 2;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(11, 35);
-            label1.Name = "label1";
-            label1.Size = new Size(61, 15);
-            label1.TabIndex = 3;
-            label1.Text = "Character:";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(184, 36);
-            label2.Name = "label2";
-            label2.Size = new Size(49, 15);
-            label2.TabIndex = 3;
-            label2.Text = "Aura ID:";
             // 
             // toolsToolStripMenuItem
             // 
@@ -142,34 +112,101 @@
             removeCharacterToolStripMenuItem.Text = "Remove Character";
             removeCharacterToolStripMenuItem.Click += removeCharacterToolStripMenuItem_Click;
             // 
-            // textBox2
+            // cbChar
             // 
-            textBox2.Location = new Point(78, 54);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 2;
+            cbChar.FormattingEnabled = true;
+            cbChar.Location = new Point(12, 54);
+            cbChar.Name = "cbChar";
+            cbChar.Size = new Size(205, 23);
+            cbChar.TabIndex = 1;
+            cbChar.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            // 
+            // txtAuraID
+            // 
+            txtAuraID.Location = new Point(435, 54);
+            txtAuraID.Name = "txtAuraID";
+            txtAuraID.Size = new Size(141, 23);
+            txtAuraID.TabIndex = 2;
+            txtAuraID.TextChanged += textBox1_TextChanged;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(11, 35);
+            label1.Name = "label1";
+            label1.Size = new Size(61, 15);
+            label1.TabIndex = 3;
+            label1.Text = "Character:";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(435, 36);
+            label2.Name = "label2";
+            label2.Size = new Size(49, 15);
+            label2.TabIndex = 3;
+            label2.Text = "Aura ID:";
+            // 
+            // txtCharID
+            // 
+            txtCharID.Location = new Point(223, 54);
+            txtCharID.Name = "txtCharID";
+            txtCharID.Size = new Size(100, 23);
+            txtCharID.TabIndex = 2;
+            txtCharID.TextChanged += textBox2_TextChanged;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(78, 34);
+            label3.Location = new Point(223, 34);
             label3.Name = "label3";
             label3.Size = new Size(75, 15);
             label3.TabIndex = 3;
             label3.Text = "Character ID:";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(329, 34);
+            label4.Name = "label4";
+            label4.Size = new Size(72, 15);
+            label4.TabIndex = 5;
+            label4.Text = "Costume ID:";
+            // 
+            // txtCostID
+            // 
+            txtCostID.Location = new Point(329, 54);
+            txtCostID.Name = "txtCostID";
+            txtCostID.Size = new Size(100, 23);
+            txtCostID.TabIndex = 4;
+            txtCostID.TextChanged += txtCostID_TextChanged;
+            // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(475, 83);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(53, 19);
+            checkBox1.TabIndex = 6;
+            checkBox1.Text = "Glare";
+            checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
-            ClientSize = new Size(291, 110);
+            ClientSize = new Size(588, 118);
+            Controls.Add(checkBox1);
+            Controls.Add(label4);
+            Controls.Add(txtCostID);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(comboBox1);
+            Controls.Add(txtCharID);
+            Controls.Add(txtAuraID);
+            Controls.Add(cbChar);
             Controls.Add(menuStrip1);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
             MainMenuStrip = menuStrip1;
@@ -189,14 +226,17 @@
         private ToolStripMenuItem saveToolStripMenuItem;
         private ToolStripSeparator toolStripSeparator1;
         private ToolStripMenuItem exitToolStripMenuItem;
-        private ComboBox comboBox1;
-        private TextBox textBox1;
+        private ComboBox cbChar;
+        private TextBox txtAuraID;
         private Label label1;
         private Label label2;
         private ToolStripMenuItem toolsToolStripMenuItem;
         private ToolStripMenuItem addCharacterToolStripMenuItem;
         private ToolStripMenuItem removeCharacterToolStripMenuItem;
-        private TextBox textBox2;
+        private TextBox txtCharID;
         private Label label3;
+        private Label label4;
+        private TextBox txtCostID;
+        private CheckBox checkBox1;
     }
 }

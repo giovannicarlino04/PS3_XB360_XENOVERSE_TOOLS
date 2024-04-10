@@ -1,19 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO;
 
 namespace XV360Lib
 {
-    struct Aura
+    public struct Aura
     {
         public int[] Color;
     }
 
-    struct Charlisting
+    public struct Charlisting
     {
         public int Name;
         public int Costume;
@@ -21,7 +17,7 @@ namespace XV360Lib
         public bool inf;
     }
 
-    struct CharName
+    public struct CharName
     {
         public int ID;
         public string Name;
@@ -32,43 +28,55 @@ namespace XV360Lib
             Name = n;
         }
     }
-    internal class AUR
+
+    public class AUR
     {
-        Aura[] Auras;
-        byte[] backup = new byte[104];
-        Charlisting[] Chars;
+        public Aura[] Auras;
+        public byte[] backup = new byte[104];
+        public Charlisting[] Chars;
 
         public void load(string FileName)
         {
-            var file = File.ReadAllBytes(FileName); if (file == null) throw new ArgumentException("No bytes in .aur file");
+            var file = File.ReadAllBytes(FileName);
+            if (file == null)
+                throw new ArgumentException("No bytes in .aur file");
 
-            Auras = new Aura[BitConverter.ToInt32(ReverseBytes(file, 8), 0)];
-            int AuraAddress = BitConverter.ToInt32(ReverseBytes(file, 12), 0);
+            Auras = new Aura[ReverseBytesInt32(BitConverter.ToInt32(file, 8))];
+            int AuraAddress = ReverseBytesInt32(BitConverter.ToInt32(file, 12));
             for (int A = 0; A < Auras.Length; A++)
             {
-                int id = BitConverter.ToInt32(ReverseBytes(file, AuraAddress + (16 * A)), 0);
-                Auras[id].Color = new int[BitConverter.ToInt32(ReverseBytes(file, AuraAddress + (16 * A) + 8), 0)];
-                int CAddress = BitConverter.ToInt32(ReverseBytes(file, AuraAddress + (16 * A) + 12), 0);
+                int id = ReverseBytesInt32(BitConverter.ToInt32(file, AuraAddress + (16 * A)));
+                Auras[id].Color = new int[ReverseBytesInt32(BitConverter.ToInt32(file, AuraAddress + (16 * A) + 8))];
+                int CAddress = ReverseBytesInt32(BitConverter.ToInt32(file, AuraAddress + (16 * A) + 12));
                 for (int C = 0; C < Auras[id].Color.Length; C++)
-                    Auras[id].Color[BitConverter.ToInt32(ReverseBytes(file, CAddress + (C * 8)), 0)] = BitConverter.ToInt32(ReverseBytes(file, CAddress + (C * 8) + 4), 0);
+                    Auras[id].Color[ReverseBytesInt32(BitConverter.ToInt32(file, CAddress + (C * 8)))] = ReverseBytesInt32(BitConverter.ToInt32(file, CAddress + (C * 8) + 4));
             }
 
-            int WAddress = BitConverter.ToInt32(ReverseBytes(file, 20), 0);
+            int WAddress = ReverseBytesInt32(BitConverter.ToInt32(file, 20));
             Array.Copy(file, WAddress, backup, 0, 104);
 
-            Chars = new Charlisting[BitConverter.ToInt32(ReverseBytes(file, 24), 0)];
-            int ChAddress = BitConverter.ToInt32(ReverseBytes(file, 28), 0);
+            Chars = new Charlisting[ReverseBytesInt32(BitConverter.ToInt32(file, 24))];
+            int ChAddress = ReverseBytesInt32(BitConverter.ToInt32(file, 28));
             for (int C = 0; C < Chars.Length; C++)
             {
-                Chars[C].Name = BitConverter.ToInt32(ReverseBytes(file, ChAddress + (C * 16)), 0);
-                Chars[C].Costume = BitConverter.ToInt32(ReverseBytes(file, ChAddress + (C * 16) + 4), 0);
-                Chars[C].ID = BitConverter.ToInt32(ReverseBytes(file, ChAddress + (C * 16) + 8), 0);
-                Chars[C].inf = BitConverter.ToBoolean(ReverseBytes(file, ChAddress + (C * 16) + 12), 0);
+                Chars[C].Name = ReverseBytesInt32(BitConverter.ToInt32(file, ChAddress + (C * 16)));
+                Chars[C].Costume = ReverseBytesInt32(BitConverter.ToInt32(file, ChAddress + (C * 16) + 4));
+                Chars[C].ID = ReverseInt16(BitConverter.ToInt16(file, ChAddress + (C * 16) + 8));
+                Chars[C].inf = BitConverter.ToBoolean(ReverseBytes(BitConverter.GetBytes(BitConverter.ToInt32(file, ChAddress + (C * 16) + 12))), 0);
             }
         }
+        private short ReverseInt16(int value)
+        {
+            return (short)(((value & 0xFF) << 8) | ((value >> 8) & 0xFF));
+        }
+
+        private int ReverseBytesInt32(int value)
+        {
+            return BitConverter.ToInt32(ReverseBytes(BitConverter.GetBytes(value)), 0);
+        }
+
         public void save(string FileName)
         {
-
             List<byte> file = new List<byte>();
             byte[] signature = new byte[] { 0x23, 0x41, 0x55, 0x52, 0xFF, 0xFE, 0x00, 0x20 };
             byte[] Top = new byte[24];
@@ -115,15 +123,16 @@ namespace XV360Lib
             Array.Copy(BitConverter.GetBytes(ReverseBytes(length)), 0, Top, 20, 4);
 
             List<byte> Charbytes = new List<byte>();
-
             for (int C = 0; C < Chars.Length; C++)
             {
                 Charbytes.AddRange(BitConverter.GetBytes(ReverseBytes(Chars[C].Name)));
                 Charbytes.AddRange(BitConverter.GetBytes(ReverseBytes(Chars[C].Costume)));
-                Charbytes.AddRange(BitConverter.GetBytes(ReverseBytes(Chars[C].ID)));
-                Charbytes.AddRange(BitConverter.GetBytes(Chars[C].inf));
-                Charbytes.AddRange(new byte[] { 0x00, 0x00, 0x00 });
+                Charbytes.AddRange(BitConverter.GetBytes(ReverseInt16(Chars[C].ID))); 
+                Charbytes.AddRange(BitConverter.GetBytes(ReverseBytes(Chars[C].inf ? 1 : 0))); // Convert bool to int (1 for true, 0 for false)
+                Charbytes.AddRange(new byte[] { 0x00, 0x00 });
             }
+
+
 
             file.AddRange(signature);
             file.AddRange(Top);
@@ -134,19 +143,63 @@ namespace XV360Lib
                 file.AddRange(filler);
             file.AddRange(Charbytes);
 
-            FileStream newfile = new FileStream(FileName, FileMode.Create);
-            newfile.Write(file.ToArray(), 0, file.Count);
-            newfile.Close();
+            using (FileStream newfile = new FileStream(FileName, FileMode.Create))
+            {
+                newfile.Write(file.ToArray(), 0, file.Count);
+            }
         }
-
-        private byte[] ReverseBytes(byte[] bytes,int shift)
+        public void AddCharacter(int id, int name, int costume, bool inf)
         {
-            return bytes.Reverse().ToArray();
+            // Create a new array to hold the updated characters
+            Charlisting[] newChars = new Charlisting[Chars.Length + 1];
+
+            // Copy existing characters to the new array
+            Array.Copy(Chars, newChars, Chars.Length);
+
+            // Add the new character at the end
+            newChars[newChars.Length - 1] = new Charlisting
+            {
+                Name = name, // Set default name, you can change it if needed
+                Costume = costume,
+                ID = id,
+                inf = inf // Set default value for inf, change it as needed
+            };
+
+            // Update the Chars array with the new array
+            Chars = newChars;
+        }
+        public void RemoveCharacter(int index)
+        {
+
+            if (index < 0 || index >= Chars.Length)
+            {
+                throw new IndexOutOfRangeException("Index is out of range");
+            }
+
+            Charlisting[] newChars = new Charlisting[Chars.Length - 1];
+
+            Array.Copy(Chars, 0, newChars, 0, index);
+
+            Array.Copy(Chars, index + 1, newChars, index, Chars.Length - index - 1);
+
+            Chars = newChars;
+        }
+        private int ReverseInt32(long value)
+        {
+            return (int)((value & 0x000000FF) << 24 |
+                   (value & 0x0000FF00) << 8 |
+                   (value & 0x00FF0000) >> 8 |
+                   (value & 0xFF000000) >> 24);
+        }
+        private byte[] ReverseBytes(byte[] bytes)
+        {
+            Array.Reverse(bytes);
+            return bytes;
         }
 
         private int ReverseBytes(int value)
         {
-            return BitConverter.ToInt32(ReverseBytes(BitConverter.GetBytes(value), 0));
+            return BitConverter.ToInt32(ReverseBytes(BitConverter.GetBytes(value)), 0);
         }
     }
 }
