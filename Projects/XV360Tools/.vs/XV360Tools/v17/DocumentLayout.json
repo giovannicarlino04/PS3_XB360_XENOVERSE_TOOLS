@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0647A453-E80B-406C-AB22-212896A05BD1}|XV360Lib\\XV360Lib.csproj|c:\\users\\giovanni\\desktop\\ps3_xb360_xenoverse_tools\\projects\\xv360tools\\xv360lib\\aur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0647A453-E80B-406C-AB22-212896A05BD1}|XV360Lib\\XV360Lib.csproj|solutionrelative:xv360lib\\aur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0647A453-E80B-406C-AB22-212896A05BD1}|XV360Lib\\XV360Lib.csproj|c:\\users\\giovanni\\desktop\\ps3_xb360_xenoverse_tools\\projects\\xv360tools\\xv360lib\\cso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0647A453-E80B-406C-AB22-212896A05BD1}|XV360Lib\\XV360Lib.csproj|solutionrelative:xv360lib\\cso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B348CCB-A847-415B-A3CC-C77D079E6E2B}|AURTool\\AURTool.csproj|c:\\users\\giovanni\\desktop\\ps3_xb360_xenoverse_tools\\projects\\xv360tools\\aurtool\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,15 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AUR.cs",
-              "DocumentMoniker": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\AUR.cs",
-              "RelativeDocumentMoniker": "XV360Lib\\AUR.cs",
-              "ToolTip": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\AUR.cs",
-              "RelativeToolTip": "XV360Lib\\AUR.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAAAIEAAABHAAAA",
+              "Title": "CSO.cs",
+              "DocumentMoniker": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\CSO.cs",
+              "RelativeDocumentMoniker": "XV360Lib\\CSO.cs",
+              "ToolTip": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\CSO.cs",
+              "RelativeToolTip": "XV360Lib\\CSO.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwB0AAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T07:12:37.901Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-04-10T09:30:32.497Z",
               "EditorCaption": ""
             },
             {
@@ -58,9 +57,10 @@
               "RelativeDocumentMoniker": "AURTool\\Form1.cs",
               "ToolTip": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\AURTool\\Form1.cs",
               "RelativeToolTip": "AURTool\\Form1.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA6wEoAAAAmAAAA",
+              "ViewState": "AQIAAEgAAAAAAAAAAIAwwFQAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T20:36:03.393Z"
+              "WhenOpened": "2024-04-09T20:36:03.393Z",
+              "EditorCaption": ""
             }
           ]
         }

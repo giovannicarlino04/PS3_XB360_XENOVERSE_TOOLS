@@ -82,6 +82,7 @@ namespace AURTool
             txtCharID.Text = aur.Chars[cbChar.SelectedIndex].Name.ToString();
             txtCostID.Text = aur.Chars[cbChar.SelectedIndex].Costume.ToString();
             txtAuraID.Text = aur.Chars[cbChar.SelectedIndex].ID.ToString();
+            checkBox1.Checked = aur.Chars[cbChar.SelectedIndex].inf;
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
