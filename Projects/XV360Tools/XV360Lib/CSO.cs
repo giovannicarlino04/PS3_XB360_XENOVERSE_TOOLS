@@ -5,27 +5,19 @@ using System.Text;
 
 namespace XV360Lib
 {
-    struct CSO_Data
+    public struct CSO_Data
     {
         public int Char_ID;
         public int Costume_ID;
         public string[] Paths;
     }
 
-    class CSO
+    public class CSO
     {
         public CSO_Data[] Data;
         BinaryReader br;
         BinaryWriter bw;
         string FileName;
-
-        // Endian conversion functions
-        static int SwapEndian(int value)
-        {
-            byte[] bytes = BitConverter.GetBytes(value);
-            Array.Reverse(bytes);
-            return BitConverter.ToInt32(bytes, 0);
-        }
 
         static string TextAtAddress(BinaryReader reader, int Address)
         {
@@ -56,20 +48,20 @@ namespace XV360Lib
             {
                 FileName = path;
                 br.BaseStream.Seek(8, SeekOrigin.Begin);
-                int Count = br.ReadInt32();
+                int Count = ReverseBytes(br.ReadInt32());
                 Data = new CSO_Data[Count];
-                int Offset = br.ReadInt32();
+                int Offset = ReverseBytes(br.ReadInt32());
 
                 for (int i = 0; i < Count; i++)
                 {
                     br.BaseStream.Seek(Offset + (32 * i), SeekOrigin.Begin);
-                    Data[i].Char_ID = SwapEndian(br.ReadInt32()); // Convert to big endian
-                    Data[i].Costume_ID = SwapEndian(br.ReadInt32()); // Convert to big endian
+                    Data[i].Char_ID = ReverseBytes(br.ReadInt32()); // Convert to big endian
+                    Data[i].Costume_ID = ReverseBytes(br.ReadInt32()); // Convert to big endian
                     Data[i].Paths = new string[4];
-                    Data[i].Paths[0] = TextAtAddress(br, SwapEndian(br.ReadInt32())); // Convert to big endian
-                    Data[i].Paths[1] = TextAtAddress(br, SwapEndian(br.ReadInt32())); // Convert to big endian
-                    Data[i].Paths[2] = TextAtAddress(br, SwapEndian(br.ReadInt32())); // Convert to big endian
-                    Data[i].Paths[3] = TextAtAddress(br, SwapEndian(br.ReadInt32())); // Convert to big endian
+                    Data[i].Paths[0] = TextAtAddress(br, ReverseBytes(br.ReadInt32())); // Convert to big endian
+                    Data[i].Paths[1] = TextAtAddress(br, ReverseBytes(br.ReadInt32())); // Convert to big endian
+                    Data[i].Paths[2] = TextAtAddress(br, ReverseBytes(br.ReadInt32())); // Convert to big endian
+                    Data[i].Paths[3] = TextAtAddress(br, ReverseBytes(br.ReadInt32())); // Convert to big endian
                 }
             }
         }
@@ -90,9 +82,9 @@ namespace XV360Lib
             int wordstartposition = 16 + (Data.Length * 32);
             using (bw = new BinaryWriter(File.Create(FileName)))
             {
-                bw.Write(new byte[] { 0x23, 0x43, 0x53, 0x4F, 0xFE, 0xFF, 0x00, 0x00 });
-                bw.Write(SwapEndian(Data.Length)); // Convert to big endian
-                bw.Write(SwapEndian((int)16)); // Convert to big endian
+                bw.Write(new byte[] { 0x23, 0x43, 0x53, 0x4F, 0xFF, 0xFE, 0x00, 0x00 });
+                bw.Write(ReverseBytes(Data.Length)); // Convert to big endian
+                bw.Write(ReverseBytes((int)16)); // Convert to big endian
                 bw.Seek(wordstartposition, SeekOrigin.Begin);
                 for (int i = 0; i < CmnText.Count; i++)
                 {
@@ -104,12 +96,12 @@ namespace XV360Lib
                 for (int i = 0; i < Data.Length; i++)
                 {
                     bw.BaseStream.Seek(16 + (32 * i), SeekOrigin.Begin);
-                    bw.Write(SwapEndian(Data[i].Char_ID)); // Convert to big endian
-                    bw.Write(SwapEndian(Data[i].Costume_ID)); // Convert to big endian
-                    bw.Write(SwapEndian(wordAddress[CmnText.IndexOf(Data[i].Paths[0])])); // Convert to big endian
-                    bw.Write(SwapEndian(wordAddress[CmnText.IndexOf(Data[i].Paths[1])])); // Convert to big endian
-                    bw.Write(SwapEndian(wordAddress[CmnText.IndexOf(Data[i].Paths[2])])); // Convert to big endian
-                    bw.Write(SwapEndian(wordAddress[CmnText.IndexOf(Data[i].Paths[3])])); // Convert to big endian
+                    bw.Write(ReverseBytes(Data[i].Char_ID)); // Convert to big endian
+                    bw.Write(ReverseBytes(Data[i].Costume_ID)); // Convert to big endian
+                    bw.Write(ReverseBytes(wordAddress[CmnText.IndexOf(Data[i].Paths[0])])); // Convert to big endian
+                    bw.Write(ReverseBytes(wordAddress[CmnText.IndexOf(Data[i].Paths[1])])); // Convert to big endian
+                    bw.Write(ReverseBytes(wordAddress[CmnText.IndexOf(Data[i].Paths[2])])); // Convert to big endian
+                    bw.Write(ReverseBytes(wordAddress[CmnText.IndexOf(Data[i].Paths[3])])); // Convert to big endian
                 }
             }
         }
@@ -129,6 +121,67 @@ namespace XV360Lib
             }
 
             return -1;
+        }
+        public void AddCharacter(int CharID, int CostID, string[] Paths)
+        {
+            CSO_Data newChar = new CSO_Data
+            {
+                Char_ID = CharID,
+                Costume_ID = CostID,
+                Paths = Paths
+            };
+
+            Array.Resize(ref Data, Data.Length + 1);
+            Data[Data.Length - 1] = newChar;
+
+        }
+        public void RemoveCharacter(int id)
+        {
+            // Find the index of the model with the specified ID
+            int indexToRemove = -1;
+            for (int i = 0; i < Data.Length; i++)
+            {
+                if (Data[i].Char_ID == id)
+                {
+                    indexToRemove = i;
+                    break;
+                }
+            }
+
+            // If the model was found, remove it from the array
+            if (indexToRemove != -1)
+            {
+                // Shift elements to the left to fill the gap
+                for (int i = indexToRemove; i < Data.Length - 1; i++)
+                {
+                    Data[i] = Data[i + 1];
+                }
+
+                // Resize the array to remove the last element
+                Array.Resize(ref Data, Data.Length - 1);
+            }
+        }
+        private int ReverseInt32(long value)
+        {
+            return (int)((value & 0x000000FF) << 24 |
+                   (value & 0x0000FF00) << 8 |
+                   (value & 0x00FF0000) >> 8 |
+                   (value & 0xFF000000) >> 24);
+        }
+        private int ReverseBytesInt32(int value)
+        {
+            return BitConverter.ToInt32(ReverseBytes(BitConverter.GetBytes(value)), 0);
+        }
+
+        private byte[] ReverseBytes(byte[] bytes)
+        {
+            Array.Reverse(bytes);
+            return bytes;
+        }
+
+        private int ReverseBytes(int value)
+        {
+            return BitConverter.ToInt32(ReverseBytes(BitConverter.GetBytes(value)), 0);
         }
     }
 }

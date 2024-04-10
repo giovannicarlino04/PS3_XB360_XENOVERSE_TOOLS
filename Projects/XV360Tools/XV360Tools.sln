@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMSTool", "CMSTool\CMSTool.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XV360Lib", "XV360Lib\XV360Lib.csproj", "{0647A453-E80B-406C-AB22-212896A05BD1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSOTool", "CSOTool\CSOTool.csproj", "{6EB88BCD-C313-4574-B654-C0820D0779A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0647A453-E80B-406C-AB22-212896A05BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0647A453-E80B-406C-AB22-212896A05BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0647A453-E80B-406C-AB22-212896A05BD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EB88BCD-C313-4574-B654-C0820D0779A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB88BCD-C313-4574-B654-C0820D0779A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB88BCD-C313-4574-B654-C0820D0779A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB88BCD-C313-4574-B654-C0820D0779A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

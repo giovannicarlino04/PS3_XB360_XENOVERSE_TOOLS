@@ -138,7 +138,6 @@ namespace XV360Lib
 
         public void AddModel(int id, string shortName, byte[] unknown, string[] paths)
         {
-            // Create a new CMS_Data instance with the provided data
             CMS_Data newModel = new CMS_Data
             {
                 ID = id,
@@ -147,22 +146,12 @@ namespace XV360Lib
                 Paths = paths
             };
 
-            // If Data is null, initialize it with a single element
-            if (Data == null)
-            {
-                Data = new CMS_Data[1];
-                Data[0] = newModel;
-            }
-            else
-            {
-                // Otherwise, resize the array and add the new model at the end
-                Array.Resize(ref Data, Data.Length + 1);
-                Data[Data.Length - 1] = newModel;
-            }
+            Array.Resize(ref Data, Data.Length + 1);
+            Data[Data.Length - 1] = newModel;
+            
         }
         public void RemoveModel(int id)
         {
-            // Find the index of the model with the specified ID
             int indexToRemove = -1;
             for (int i = 0; i < Data.Length; i++)
             {
@@ -173,7 +162,6 @@ namespace XV360Lib
                 }
             }
 
-            // If the model was found, remove it from the array
             if (indexToRemove != -1)
             {
                 // Shift elements to the left to fill the gap

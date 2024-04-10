@@ -65,15 +65,6 @@ namespace XV360Lib
                 Chars[C].inf = BitConverter.ToBoolean(ReverseBytes(BitConverter.GetBytes(BitConverter.ToInt32(file, ChAddress + (C * 16) + 12))), 0);
             }
         }
-        private short ReverseInt16(int value)
-        {
-            return (short)(((value & 0xFF) << 8) | ((value >> 8) & 0xFF));
-        }
-
-        private int ReverseBytesInt32(int value)
-        {
-            return BitConverter.ToInt32(ReverseBytes(BitConverter.GetBytes(value)), 0);
-        }
 
         public void save(string FileName)
         {
@@ -184,6 +175,12 @@ namespace XV360Lib
 
             Chars = newChars;
         }
+        private short ReverseInt16(int value)
+        {
+            return (short)(((value & 0xFF) << 8) | ((value >> 8) & 0xFF));
+        }
+
+
         private int ReverseInt32(long value)
         {
             return (int)((value & 0x000000FF) << 24 |
@@ -191,6 +188,11 @@ namespace XV360Lib
                    (value & 0x00FF0000) >> 8 |
                    (value & 0xFF000000) >> 24);
         }
+        private int ReverseBytesInt32(int value)
+        {
+            return BitConverter.ToInt32(ReverseBytes(BitConverter.GetBytes(value)), 0);
+        }
+
         private byte[] ReverseBytes(byte[] bytes)
         {
             Array.Reverse(bytes);
