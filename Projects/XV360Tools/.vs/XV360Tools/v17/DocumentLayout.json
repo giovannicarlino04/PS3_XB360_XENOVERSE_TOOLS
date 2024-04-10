@@ -1,104 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{6EB88BCD-C313-4574-B654-C0820D0779A1}|CSOTool\\CSOTool.csproj|c:\\users\\giovanni\\desktop\\ps3_xb360_xenoverse_tools\\projects\\xv360tools\\csotool\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EB88BCD-C313-4574-B654-C0820D0779A1}|CSOTool\\CSOTool.csproj|solutionrelative:csotool\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0647A453-E80B-406C-AB22-212896A05BD1}|XV360Lib\\XV360Lib.csproj|c:\\users\\giovanni\\desktop\\ps3_xb360_xenoverse_tools\\projects\\xv360tools\\xv360lib\\cso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0647A453-E80B-406C-AB22-212896A05BD1}|XV360Lib\\XV360Lib.csproj|solutionrelative:xv360lib\\cso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0647A453-E80B-406C-AB22-212896A05BD1}|XV360Lib\\XV360Lib.csproj|c:\\users\\giovanni\\desktop\\ps3_xb360_xenoverse_tools\\projects\\xv360tools\\xv360lib\\cms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0647A453-E80B-406C-AB22-212896A05BD1}|XV360Lib\\XV360Lib.csproj|solutionrelative:xv360lib\\cms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EB88BCD-C313-4574-B654-C0820D0779A1}|CSOTool\\CSOTool.csproj|c:\\users\\giovanni\\desktop\\ps3_xb360_xenoverse_tools\\projects\\xv360tools\\csotool\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6EB88BCD-C313-4574-B654-C0820D0779A1}|CSOTool\\CSOTool.csproj|solutionrelative:csotool\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0647A453-E80B-406C-AB22-212896A05BD1}|XV360Lib\\XV360Lib.csproj|c:\\users\\giovanni\\desktop\\ps3_xb360_xenoverse_tools\\projects\\xv360tools\\xv360lib\\aur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0647A453-E80B-406C-AB22-212896A05BD1}|XV360Lib\\XV360Lib.csproj|solutionrelative:xv360lib\\aur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 3,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AUR.cs",
-              "DocumentMoniker": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\AUR.cs",
-              "RelativeDocumentMoniker": "XV360Lib\\AUR.cs",
-              "ToolTip": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\AUR.cs",
-              "RelativeToolTip": "XV360Lib\\AUR.cs",
-              "ViewState": "AQIAALMAAAAAAAAAAAAAALYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T09:54:05.785Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CMS.cs",
-              "DocumentMoniker": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\CMS.cs",
-              "RelativeDocumentMoniker": "XV360Lib\\CMS.cs",
-              "ToolTip": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\CMS.cs",
-              "RelativeToolTip": "XV360Lib\\CMS.cs",
-              "ViewState": "AQIAAIYAAAAAAAAAAAAQwIwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T09:53:49.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CSO.cs",
-              "DocumentMoniker": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\CSO.cs",
-              "RelativeDocumentMoniker": "XV360Lib\\CSO.cs",
-              "ToolTip": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\CSO.cs",
-              "RelativeToolTip": "XV360Lib\\CSO.cs",
-              "ViewState": "AQIAAGoAAAAAAAAAAAAiwI8AAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T09:30:32.497Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\CSOTool\\Form1.cs",
-              "RelativeDocumentMoniker": "CSOTool\\Form1.cs",
-              "ToolTip": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\CSOTool\\Form1.cs",
-              "RelativeToolTip": "CSOTool\\Form1.cs",
-              "ViewState": "AQIAAGEAAAAAAAAAAAAkwHIAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T09:39:45.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [Progettazione]",
-              "DocumentMoniker": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\CSOTool\\Form1.cs",
-              "RelativeDocumentMoniker": "CSOTool\\Form1.cs",
-              "ToolTip": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\CSOTool\\Form1.cs [Progettazione]",
-              "RelativeToolTip": "CSOTool\\Form1.cs [Progettazione]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T09:35:29.594Z",
-              "EditorCaption": " [Progettazione]"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
