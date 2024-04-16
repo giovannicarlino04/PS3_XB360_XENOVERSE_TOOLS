@@ -7,7 +7,6 @@ internal class Program
         AUR aur = new AUR();
         CMS cms = new CMS();
         CSO cso = new CSO();
-        CUS cus = new CUS();
 
         if (args.Length == 0)
             throw new Exception("No args were given");

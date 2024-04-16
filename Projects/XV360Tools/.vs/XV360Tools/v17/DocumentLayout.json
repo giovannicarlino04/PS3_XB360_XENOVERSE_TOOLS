@@ -3,36 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1E99075-6D98-48B4-B9C1-D62D1203A496}|CUSTool\\CUSTool.csproj|c:\\users\\giovanni\\desktop\\repositories\\ps3_xb360_xenoverse_tools\\projects\\xv360tools\\custool\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1E99075-6D98-48B4-B9C1-D62D1203A496}|CUSTool\\CUSTool.csproj|solutionrelative:custool\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1E99075-6D98-48B4-B9C1-D62D1203A496}|CUSTool\\CUSTool.csproj|c:\\users\\giovanni\\desktop\\repositories\\ps3_xb360_xenoverse_tools\\projects\\xv360tools\\custool\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1E99075-6D98-48B4-B9C1-D62D1203A496}|CUSTool\\CUSTool.csproj|solutionrelative:custool\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CC41F63-0CBD-4DBD-81A4-F3BFC8C58400}|XV360Lib\\XV360Lib.csproj|c:\\users\\giovanni\\desktop\\repositories\\ps3_xb360_xenoverse_tools\\projects\\xv360tools\\xv360lib\\cus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CC41F63-0CBD-4DBD-81A4-F3BFC8C58400}|XV360Lib\\XV360Lib.csproj|solutionrelative:xv360lib\\cus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2F59ADA-40E2-4B5D-9A85-903A5719A772}|XVXMLSerializer\\XVXMLSerializer.csproj|C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\xvxmlserializer\\xvxmlserializer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A2F59ADA-40E2-4B5D-9A85-903A5719A772}|XVXMLSerializer\\XVXMLSerializer.csproj|solutionrelative:xvxmlserializer\\xvxmlserializer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2F59ADA-40E2-4B5D-9A85-903A5719A772}|XVXMLSerializer\\XVXMLSerializer.csproj|c:\\users\\giovanni\\desktop\\repositories\\ps3_xb360_xenoverse_tools\\projects\\xv360tools\\xvxmlserializer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2F59ADA-40E2-4B5D-9A85-903A5719A772}|XVXMLSerializer\\XVXMLSerializer.csproj|solutionrelative:xvxmlserializer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CC41F63-0CBD-4DBD-81A4-F3BFC8C58400}|XV360Lib\\XV360Lib.csproj|C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\xv360lib\\cms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CC41F63-0CBD-4DBD-81A4-F3BFC8C58400}|XV360Lib\\XV360Lib.csproj|solutionrelative:xv360lib\\cms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CC41F63-0CBD-4DBD-81A4-F3BFC8C58400}|XV360Lib\\XV360Lib.csproj|C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\xv360lib\\cso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CC41F63-0CBD-4DBD-81A4-F3BFC8C58400}|XV360Lib\\XV360Lib.csproj|solutionrelative:xv360lib\\cso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CC41F63-0CBD-4DBD-81A4-F3BFC8C58400}|XV360Lib\\XV360Lib.csproj|C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\xv360lib\\aur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CC41F63-0CBD-4DBD-81A4-F3BFC8C58400}|XV360Lib\\XV360Lib.csproj|solutionrelative:xv360lib\\aur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,108 +14,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\CUSTool\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "CUSTool\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\CUSTool\\Form1.Designer.cs",
-              "RelativeToolTip": "CUSTool\\Form1.Designer.cs",
-              "ViewState": "AQIAAOwAAAAAAAAAAAAuwP8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T14:22:24.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\CUSTool\\Form1.cs",
-              "RelativeDocumentMoniker": "CUSTool\\Form1.cs",
-              "ToolTip": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\CUSTool\\Form1.cs",
-              "RelativeToolTip": "CUSTool\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T14:22:00.119Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CUS.cs",
-              "DocumentMoniker": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\CUS.cs",
-              "RelativeDocumentMoniker": "XV360Lib\\CUS.cs",
-              "ToolTip": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\CUS.cs",
-              "RelativeToolTip": "XV360Lib\\CUS.cs",
-              "ViewState": "AQIAAHMAAAAAAAAAAAA2wJAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T14:18:09.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XVXMLSerializer\\Program.cs",
               "RelativeDocumentMoniker": "XVXMLSerializer\\Program.cs",
               "ToolTip": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XVXMLSerializer\\Program.cs",
               "RelativeToolTip": "XVXMLSerializer\\Program.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAEwCkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T16:55:23.666Z",
+              "WhenOpened": "2024-04-16T17:20:25.08Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "XVXMLSerializer.csproj",
-              "DocumentMoniker": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XVXMLSerializer\\XVXMLSerializer.csproj",
-              "RelativeDocumentMoniker": "XVXMLSerializer\\XVXMLSerializer.csproj",
-              "ToolTip": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XVXMLSerializer\\XVXMLSerializer.csproj",
-              "RelativeToolTip": "XVXMLSerializer\\XVXMLSerializer.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-15T16:55:18.951Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CMS.cs",
-              "DocumentMoniker": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\CMS.cs",
-              "RelativeDocumentMoniker": "XV360Lib\\CMS.cs",
-              "ToolTip": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\CMS.cs",
-              "RelativeToolTip": "XV360Lib\\CMS.cs",
-              "ViewState": "AQIAAK4AAAAAAAAAAAApwLoAAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T15:37:58.362Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AUR.cs",
-              "DocumentMoniker": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\AUR.cs",
-              "RelativeDocumentMoniker": "XV360Lib\\AUR.cs",
-              "ToolTip": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\AUR.cs",
-              "RelativeToolTip": "XV360Lib\\AUR.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAuwOUAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T15:51:45.427Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CSO.cs",
-              "DocumentMoniker": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\CSO.cs",
-              "RelativeDocumentMoniker": "XV360Lib\\CSO.cs",
-              "ToolTip": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\CSO.cs",
-              "RelativeToolTip": "XV360Lib\\CSO.cs",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAQwK8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T05:51:03.439Z"
             }
           ]
         }

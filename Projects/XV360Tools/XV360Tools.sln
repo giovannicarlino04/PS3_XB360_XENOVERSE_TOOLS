@@ -13,8 +13,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMSTool", "CMSTool\CMSTool.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSOTool", "CSOTool\CSOTool.csproj", "{DDC370CD-E959-423C-A096-EE5C1ADDFDCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CUSTool", "CUSTool\CUSTool.csproj", "{E1E99075-6D98-48B4-B9C1-D62D1203A496}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,10 +39,6 @@ Global
 		{DDC370CD-E959-423C-A096-EE5C1ADDFDCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDC370CD-E959-423C-A096-EE5C1ADDFDCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDC370CD-E959-423C-A096-EE5C1ADDFDCC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E1E99075-6D98-48B4-B9C1-D62D1203A496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E1E99075-6D98-48B4-B9C1-D62D1203A496}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E1E99075-6D98-48B4-B9C1-D62D1203A496}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E1E99075-6D98-48B4-B9C1-D62D1203A496}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
