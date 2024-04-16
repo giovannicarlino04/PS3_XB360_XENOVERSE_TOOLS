@@ -37,7 +37,7 @@ namespace CSOTool
         {
             if (fileName == "")
                 return;
-            cso.Save();
+            cso.Save(fileName);
 
             cbChar.Items.Clear();
             for (int i = 0; i < cso.Data.Length; i++)

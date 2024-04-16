@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Xml.Serialization;
 
 namespace XV360Lib
 {
@@ -203,5 +204,33 @@ namespace XV360Lib
         {
             return BitConverter.ToInt32(ReverseBytes(BitConverter.GetBytes(value)), 0);
         }
+
+
+        public void AUR2XML(string outputFileName, AUR instance)
+        {
+            XmlSerializer serializer = new XmlSerializer(typeof(AUR));
+            using (TextWriter writer = new StreamWriter(outputFileName))
+            {
+                serializer.Serialize(writer, instance);
+            }
+        }
+
+        public static AUR XML2AUR(string xmlFileName, string outputFileName)
+        {
+            XmlSerializer serializer = new XmlSerializer(typeof(AUR));
+            using (TextReader reader = new StreamReader(xmlFileName))
+            {
+                AUR parsedObject = (AUR)serializer.Deserialize(reader);
+                // Perform any additional actions here if needed
+
+                // Save the parsed object to the original desired file
+                parsedObject.save(outputFileName);
+
+                return parsedObject;
+            }
+        }
+
+
+
     }
 }

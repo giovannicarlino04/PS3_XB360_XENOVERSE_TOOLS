@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\CSOTool\\CSOTool.csproj": {}
+    "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\CSOTool\\CSOTool.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\CSOTool\\CSOTool.csproj": {
+    "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\CSOTool\\CSOTool.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\CSOTool\\CSOTool.csproj",
+        "projectUniqueName": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\CSOTool\\CSOTool.csproj",
         "projectName": "CSOTool",
-        "projectPath": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\CSOTool\\CSOTool.csproj",
+        "projectPath": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\CSOTool\\CSOTool.csproj",
         "packagesPath": "C:\\Users\\Giovanni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\CSOTool\\obj\\",
+        "outputPath": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\CSOTool\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Giovanni\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\XV360Lib.csproj": {
-                "projectPath": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\XV360Lib.csproj"
+              "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\XV360Lib.csproj": {
+                "projectPath": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\XV360Lib.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\XV360Lib.csproj": {
+    "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\XV360Lib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\XV360Lib.csproj",
+        "projectUniqueName": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\XV360Lib.csproj",
         "projectName": "XV360Lib",
-        "projectPath": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\XV360Lib.csproj",
+        "projectPath": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\XV360Lib.csproj",
         "packagesPath": "C:\\Users\\Giovanni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\obj\\",
+        "outputPath": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Giovanni\\AppData\\Roaming\\NuGet\\NuGet.Config",

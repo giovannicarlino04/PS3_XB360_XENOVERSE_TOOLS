@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\XV360Lib.csproj",
+      "projectUniqueName": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\XV360Lib.csproj",
       "projectName": "XV360Lib",
-      "projectPath": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\XV360Lib.csproj",
+      "projectPath": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\XV360Lib.csproj",
       "packagesPath": "C:\\Users\\Giovanni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\obj\\",
+      "outputPath": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Giovanni\\AppData\\Roaming\\NuGet\\NuGet.Config",

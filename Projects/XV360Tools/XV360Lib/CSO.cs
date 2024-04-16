@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using System.Xml.Serialization;
 
 namespace XV360Lib
 {
@@ -66,7 +67,7 @@ namespace XV360Lib
             }
         }
 
-        public void Save()
+        public void Save(string outputFileName)
         {
             List<string> CmnText = new List<string>();
             for (int i = 0; i < Data.Length; i++)
@@ -80,7 +81,7 @@ namespace XV360Lib
 
             int[] wordAddress = new int[CmnText.Count];
             int wordstartposition = 16 + (Data.Length * 32);
-            using (bw = new BinaryWriter(File.Create(FileName)))
+            using (bw = new BinaryWriter(File.Create(outputFileName)))
             {
                 bw.Write(new byte[] { 0x23, 0x43, 0x53, 0x4F, 0xFF, 0xFE, 0x00, 0x00 });
                 bw.Write(ReverseBytes(Data.Length)); // Convert to big endian
@@ -182,6 +183,27 @@ namespace XV360Lib
         private int ReverseBytes(int value)
         {
             return BitConverter.ToInt32(ReverseBytes(BitConverter.GetBytes(value)), 0);
+        }
+
+        public void CSO2XML(string outputFileName, CSO instance)
+        {
+            XmlSerializer serializer = new XmlSerializer(typeof(CSO));
+            using (TextWriter writer = new StreamWriter(outputFileName))
+            {
+                serializer.Serialize(writer, instance);
+            }
+        }
+
+        public static CSO XML2CSO(string xmlFileName, string outputFileName)
+        {
+            XmlSerializer serializer = new XmlSerializer(typeof(CSO));
+            using (TextReader reader = new StreamReader(xmlFileName))
+            {
+                CSO parsedObject = (CSO)serializer.Deserialize(reader);
+                parsedObject.Save(outputFileName);
+
+                return parsedObject;
+            }
         }
     }
 }

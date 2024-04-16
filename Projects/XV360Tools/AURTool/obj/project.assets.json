@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\AURTool\\AURTool.csproj",
+      "projectUniqueName": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\AURTool\\AURTool.csproj",
       "projectName": "AURTool",
-      "projectPath": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\AURTool\\AURTool.csproj",
+      "projectPath": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\AURTool\\AURTool.csproj",
       "packagesPath": "C:\\Users\\Giovanni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\AURTool\\obj\\",
+      "outputPath": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\AURTool\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Giovanni\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\XV360Lib.csproj": {
-              "projectPath": "C:\\Users\\Giovanni\\Desktop\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\XV360Lib.csproj"
+            "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\XV360Lib.csproj": {
+              "projectPath": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\XV360Lib.csproj"
             }
           }
         }

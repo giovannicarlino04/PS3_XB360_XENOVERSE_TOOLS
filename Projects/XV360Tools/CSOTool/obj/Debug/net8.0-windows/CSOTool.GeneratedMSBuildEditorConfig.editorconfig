@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CSOTool
-build_property.ProjectDir = C:\Users\Giovanni\Desktop\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\CSOTool\
+build_property.ProjectDir = C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\CSOTool\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

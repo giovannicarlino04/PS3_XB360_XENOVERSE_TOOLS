@@ -37,7 +37,7 @@ namespace CMSTool
         {
             if (filePath == "")
                 return;
-            cms.Save();
+            cms.Save(filePath);
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)

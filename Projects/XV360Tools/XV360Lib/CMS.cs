@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Xml.Serialization;
 
 namespace XV360Lib
 {
@@ -73,7 +74,7 @@ namespace XV360Lib
             return rText;
         }
 
-        public void Save()
+        public void Save(string OutputFileName)
         {
             List<string> CmnText = new List<string>();
             for (int i = 0; i < Data.Length; i++)
@@ -87,7 +88,7 @@ namespace XV360Lib
 
             int[] wordAddress = new int[CmnText.Count];
             int wordstartposition = 16 + (Data.Length * 80);
-            using (bw = new BinaryWriter(File.Create(FileName)))
+            using (bw = new BinaryWriter(File.Create(OutputFileName)))
             {
                 bw.Write(new byte[] { 0x23, 0x43, 0x4D, 0x53, 0xFF, 0xFE, 0x00, 0x00 });
                 bw.Write(ReverseBytes(Data.Length));
@@ -172,6 +173,26 @@ namespace XV360Lib
 
                 // Resize the array to remove the last element
                 Array.Resize(ref Data, Data.Length - 1);
+            }
+        }
+        public void CMS2XML(string outputFileName, CMS instance)
+        {
+            XmlSerializer serializer = new XmlSerializer(typeof(CMS));
+            using (TextWriter writer = new StreamWriter(outputFileName))
+            {
+                serializer.Serialize(writer, instance);
+            }
+        }
+
+        public static CMS XML2CMS(string xmlFileName, string outputFileName)
+        {
+            XmlSerializer serializer = new XmlSerializer(typeof(CMS));
+            using (TextReader reader = new StreamReader(xmlFileName))
+            {
+                CMS parsedObject = (CMS)serializer.Deserialize(reader);
+                parsedObject.Save(outputFileName);
+
+                return parsedObject;
             }
         }
 

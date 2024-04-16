@@ -1,0 +1,17 @@
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\CUSTool\bin\Debug\net8.0-windows\CUSTool.exe
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\CUSTool\bin\Debug\net8.0-windows\CUSTool.deps.json
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\CUSTool\bin\Debug\net8.0-windows\CUSTool.runtimeconfig.json
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\CUSTool\bin\Debug\net8.0-windows\CUSTool.dll
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\CUSTool\bin\Debug\net8.0-windows\CUSTool.pdb
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\CUSTool\obj\Debug\net8.0-windows\CUSTool.Form1.resources
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\CUSTool\obj\Debug\net8.0-windows\CUSTool.csproj.GenerateResource.cache
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\CUSTool\obj\Debug\net8.0-windows\CUSTool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\CUSTool\obj\Debug\net8.0-windows\CUSTool.AssemblyInfoInputs.cache
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\CUSTool\obj\Debug\net8.0-windows\CUSTool.AssemblyInfo.cs
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\CUSTool\obj\Debug\net8.0-windows\CUSTool.csproj.CoreCompileInputs.cache
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\CUSTool\obj\Debug\net8.0-windows\CUSTool.sourcelink.json
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\CUSTool\obj\Debug\net8.0-windows\CUSTool.dll
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\CUSTool\obj\Debug\net8.0-windows\refint\CUSTool.dll
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\CUSTool\obj\Debug\net8.0-windows\CUSTool.pdb
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\CUSTool\obj\Debug\net8.0-windows\CUSTool.genruntimeconfig.cache
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\Projects\XV360Tools\CUSTool\obj\Debug\net8.0-windows\ref\CUSTool.dll
