@@ -42,7 +42,7 @@ int main(int argc, char** argv)
 	}else{
 		LibXenoverse::Uexp* uexp_pack = new LibXenoverse::Uexp();
 		uexp_pack->addFolder(filename + "/");
-		uexp_pack->save(filename + ".uexp");
+		uexp_pack->save(filename + ".uexp", true);
 		uexp_pack->updateUassetFile(filename + ".uasset");			//modification about uexp size.
 
 		delete uexp_pack;

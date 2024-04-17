@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XVXMLSerializer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fd7c7e1c0106f6d08c018fa49e49ef2ec1a0f63")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0c2ccbe01b1cd4694f3b5185725f0b00aff7e82")]
 [assembly: System.Reflection.AssemblyProductAttribute("XVXMLSerializer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XVXMLSerializer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

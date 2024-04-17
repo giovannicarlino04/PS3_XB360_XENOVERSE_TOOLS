@@ -24,7 +24,7 @@ public:
 
 	void	clean() { if (isInternalLoaded) { if (uasset) { delete uasset; }   if (uexp) { delete uexp; } } uexp = 0; uasset = 0; isInternalLoaded = false; }
 	bool	load(string filename);
-	void	save(string filename, bool big_endian = true);
+	void	save(string filename, bool big_endian);
 	
 	Uasset*	getUasset(void) { return uasset; }
 	void	setUasset(Uasset* uasset) { this->uasset = uasset; isInternalLoaded = false; }

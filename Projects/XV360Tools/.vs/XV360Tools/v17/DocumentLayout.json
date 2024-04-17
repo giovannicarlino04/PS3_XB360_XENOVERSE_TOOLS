@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9CC41F63-0CBD-4DBD-81A4-F3BFC8C58400}|XV360Lib\\XV360Lib.csproj|c:\\users\\giovanni\\desktop\\repositories\\ps3_xb360_xenoverse_tools\\projects\\xv360tools\\xv360lib\\cso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9CC41F63-0CBD-4DBD-81A4-F3BFC8C58400}|XV360Lib\\XV360Lib.csproj|c:\\users\\giovanni\\desktop\\repositories\\ps3_xb360_xenoverse_tools\\projects\\xv360tools\\xv360lib\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CC41F63-0CBD-4DBD-81A4-F3BFC8C58400}|XV360Lib\\XV360Lib.csproj|solutionrelative:xv360lib\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2F59ADA-40E2-4B5D-9A85-903A5719A772}|XVXMLSerializer\\XVXMLSerializer.csproj|C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\xvxmlserializer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2F59ADA-40E2-4B5D-9A85-903A5719A772}|XVXMLSerializer\\XVXMLSerializer.csproj|solutionrelative:xvxmlserializer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC41F63-0CBD-4DBD-81A4-F3BFC8C58400}|XV360Lib\\XV360Lib.csproj|C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\xv360lib\\cms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CC41F63-0CBD-4DBD-81A4-F3BFC8C58400}|XV360Lib\\XV360Lib.csproj|solutionrelative:xv360lib\\cms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC41F63-0CBD-4DBD-81A4-F3BFC8C58400}|XV360Lib\\XV360Lib.csproj|C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\xv360lib\\cso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CC41F63-0CBD-4DBD-81A4-F3BFC8C58400}|XV360Lib\\XV360Lib.csproj|solutionrelative:xv360lib\\cso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2F59ADA-40E2-4B5D-9A85-903A5719A772}|XVXMLSerializer\\XVXMLSerializer.csproj|c:\\users\\giovanni\\desktop\\repositories\\ps3_xb360_xenoverse_tools\\projects\\xv360tools\\xvxmlserializer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2F59ADA-40E2-4B5D-9A85-903A5719A772}|XVXMLSerializer\\XVXMLSerializer.csproj|solutionrelative:xvxmlserializer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2F59ADA-40E2-4B5D-9A85-903A5719A772}|XVXMLSerializer\\XVXMLSerializer.csproj|C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\xvxmlserializer\\xvxmlserializer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2F59ADA-40E2-4B5D-9A85-903A5719A772}|XVXMLSerializer\\XVXMLSerializer.csproj|solutionrelative:xvxmlserializer\\xvxmlserializer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,15 +35,52 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Common.cs",
+              "DocumentMoniker": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\Common.cs",
+              "RelativeDocumentMoniker": "XV360Lib\\Common.cs",
+              "ToolTip": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\Common.cs",
+              "RelativeToolTip": "XV360Lib\\Common.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAzwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T18:41:24.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CMS.cs",
+              "DocumentMoniker": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\CMS.cs",
+              "RelativeDocumentMoniker": "XV360Lib\\CMS.cs",
+              "ToolTip": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\CMS.cs",
+              "RelativeToolTip": "XV360Lib\\CMS.cs",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAUwM8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T15:52:57.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "XVXMLSerializer.csproj",
+              "DocumentMoniker": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XVXMLSerializer\\XVXMLSerializer.csproj",
+              "RelativeDocumentMoniker": "XVXMLSerializer\\XVXMLSerializer.csproj",
+              "ToolTip": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XVXMLSerializer\\XVXMLSerializer.csproj",
+              "RelativeToolTip": "XVXMLSerializer\\XVXMLSerializer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-17T13:08:11.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CSO.cs",
               "DocumentMoniker": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\CSO.cs",
               "RelativeDocumentMoniker": "XV360Lib\\CSO.cs",
               "ToolTip": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XV360Lib\\CSO.cs",
               "RelativeToolTip": "XV360Lib\\CSO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGUAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAG8AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T07:37:26.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T07:37:26.996Z"
             },
             {
               "$type": "Document",
@@ -41,10 +90,9 @@
               "RelativeDocumentMoniker": "XVXMLSerializer\\Program.cs",
               "ToolTip": "C:\\Users\\Giovanni\\Desktop\\Repositories\\PS3_XB360_XENOVERSE_TOOLS\\Projects\\XV360Tools\\XVXMLSerializer\\Program.cs",
               "RelativeToolTip": "XVXMLSerializer\\Program.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBoAAAAiAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAqwBMAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T07:37:20.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T07:37:20.672Z"
             }
           ]
         }

@@ -527,7 +527,7 @@ TiXmlElement* Scd::export_Xml()
 /*-------------------------------------------------------------------------------\
 |                             Compile				                             |
 \-------------------------------------------------------------------------------*/
-bool Scd::Compile(TiXmlDocument *doc, bool big_endian)
+bool Scd::Compile(TiXmlDocument *doc, bool big_endian )
 {
 	this->big_endian = big_endian;
 
@@ -724,7 +724,7 @@ bool Scd::Compile(TiXmlDocument *doc, bool big_endian)
 /*-------------------------------------------------------------------------------\
 |                             Compile				                             |
 \-------------------------------------------------------------------------------*
-bool Scd::Compile(TiXmlDocument *doc, bool big_endian)
+bool Scd::Compile(TiXmlDocument *doc, bool big_endian = true)
 {
 	this->big_endian = big_endian;
 

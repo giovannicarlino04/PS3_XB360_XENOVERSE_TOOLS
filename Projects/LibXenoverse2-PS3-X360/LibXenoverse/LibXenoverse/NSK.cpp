@@ -38,7 +38,7 @@ void NSK::save(string filename, bool big_endian)
 /*-------------------------------------------------------------------------------\
 |                             extract				                              |
 \-------------------------------------------------------------------------------*/
-void NSK::extract(string folder, bool big_endian)
+void NSK::extract(string folder, bool big_endian )
 {
 	if (mEsk)
 		mEsk->save(folder +"/"+ mName +".esk", big_endian);

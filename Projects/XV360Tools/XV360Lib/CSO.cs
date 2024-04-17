@@ -20,30 +20,8 @@ namespace XV360Lib
         BinaryWriter bw;
         string FileName;
 
-        static string TextAtAddress(BinaryReader reader, int Address)
-        {
-            long position = reader.BaseStream.Position;
-            string rText = "";
-            byte[] c;
-            if (Address != 0)
-            {
-                reader.BaseStream.Seek(Address, SeekOrigin.Begin);
-                do
-                {
-                    c = reader.ReadBytes(1);
-                    if (c[0] != 0x00)
-                        rText += Encoding.ASCII.GetString(c);
-                    else
-                        break;
-                }
-                while (true);
 
-                reader.BaseStream.Seek(position, SeekOrigin.Begin);
-            }
-            return rText;
-        }
-
-        public void Load(string path)
+        public void LoadBE(string path)
         {
             using (br = new BinaryReader(File.Open(path, FileMode.Open)))
             {
@@ -67,7 +45,7 @@ namespace XV360Lib
             }
         }
 
-        public void Save(string outputFileName)
+        public void SaveBE(string outputFileName)
         {
             List<string> CmnText = new List<string>();
             for (int i = 0; i < Data.Length; i++)
@@ -107,6 +85,92 @@ namespace XV360Lib
             }
         }
 
+        public void LoadLE(string path)
+        {
+            using (br = new BinaryReader(File.Open(path, FileMode.Open)))
+            {
+                FileName = path;
+                br.BaseStream.Seek(8, SeekOrigin.Begin);
+                int Count = (br.ReadInt32());
+                Data = new CSO_Data[Count];
+                int Offset = (br.ReadInt32());
+
+                for (int i = 0; i < Count; i++)
+                {
+                    br.BaseStream.Seek(Offset + (32 * i), SeekOrigin.Begin);
+                    Data[i].Char_ID = (br.ReadInt32()); // Convert to big endian
+                    Data[i].Costume_ID = (br.ReadInt32()); // Convert to big endian
+                    Data[i].Paths = new string[4];
+                    Data[i].Paths[0] = TextAtAddress(br, (br.ReadInt32())); // Convert to big endian
+                    Data[i].Paths[1] = TextAtAddress(br, (br.ReadInt32())); // Convert to big endian
+                    Data[i].Paths[2] = TextAtAddress(br, (br.ReadInt32())); // Convert to big endian
+                    Data[i].Paths[3] = TextAtAddress(br, (br.ReadInt32())); // Convert to big endian
+                }
+            }
+        }
+
+        public void SaveLE(string outputFileName)
+        {
+            List<string> CmnText = new List<string>();
+            for (int i = 0; i < Data.Length; i++)
+            {
+                for (int j = 0; j < Data[i].Paths.Length; j++)
+                {
+                    if (!CmnText.Contains(Data[i].Paths[j]))
+                        CmnText.Add(Data[i].Paths[j]);
+                }
+            }
+
+            int[] wordAddress = new int[CmnText.Count];
+            int wordstartposition = 16 + (Data.Length * 32);
+            using (bw = new BinaryWriter(File.Create(outputFileName)))
+            {
+                bw.Write(new byte[] { 0x23, 0x43, 0x53, 0x4F, 0xFE, 0xFF, 0x00, 0x00 });
+                bw.Write((Data.Length)); // Convert to big endian
+                bw.Write(((int)16)); // Convert to big endian
+                bw.Seek(wordstartposition, SeekOrigin.Begin);
+                for (int i = 0; i < CmnText.Count; i++)
+                {
+                    wordAddress[i] = (int)bw.BaseStream.Position;
+                    bw.Write(Encoding.ASCII.GetBytes(CmnText[i]));
+                    bw.Write((byte)0);
+                }
+
+                for (int i = 0; i < Data.Length; i++)
+                {
+                    bw.BaseStream.Seek(16 + (32 * i), SeekOrigin.Begin);
+                    bw.Write((Data[i].Char_ID)); // Convert to big endian
+                    bw.Write((Data[i].Costume_ID)); // Convert to big endian
+                    bw.Write((wordAddress[CmnText.IndexOf(Data[i].Paths[0])])); // Convert to big endian
+                    bw.Write((wordAddress[CmnText.IndexOf(Data[i].Paths[1])])); // Convert to big endian
+                    bw.Write((wordAddress[CmnText.IndexOf(Data[i].Paths[2])])); // Convert to big endian
+                    bw.Write((wordAddress[CmnText.IndexOf(Data[i].Paths[3])])); // Convert to big endian
+                }
+            }
+        }
+
+        static string TextAtAddress(BinaryReader reader, int Address)
+        {
+            long position = reader.BaseStream.Position;
+            string rText = "";
+            byte[] c;
+            if (Address != 0)
+            {
+                reader.BaseStream.Seek(Address, SeekOrigin.Begin);
+                do
+                {
+                    c = reader.ReadBytes(1);
+                    if (c[0] != 0x00)
+                        rText += Encoding.ASCII.GetString(c);
+                    else
+                        break;
+                }
+                while (true);
+
+                reader.BaseStream.Seek(position, SeekOrigin.Begin);
+            }
+            return rText;
+        }
         public int DataExist(int id, int c)
         {
             for (int i = 0; i < Data.Length; i++)
@@ -194,13 +258,17 @@ namespace XV360Lib
             }
         }
 
-        public static CSO XML2CSO(string xmlFileName, string outputFileName)
+        public static CSO XML2CSO(string xmlFileName, string outputFileName, bool big_endian)
         {
             XmlSerializer serializer = new XmlSerializer(typeof(CSO));
             using (TextReader reader = new StreamReader(xmlFileName))
             {
                 CSO parsedObject = (CSO)serializer.Deserialize(reader);
-                parsedObject.Save(outputFileName);
+
+                if (big_endian)
+                    parsedObject.SaveBE(outputFileName);
+                else
+                    parsedObject.SaveLE(outputFileName);
 
                 return parsedObject;
             }

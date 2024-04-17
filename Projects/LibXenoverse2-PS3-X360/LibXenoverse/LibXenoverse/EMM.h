@@ -169,7 +169,7 @@ public:
 	std::vector<string>	getListUniqueParameters(void);
 
 	bool	load(string filename);
-	void	save(string filename, bool big_endian=false);
+	void	save(string filename, bool big_endian);
 	bool	loadXml(string filename);
 	void	saveXML(string filename);
 	void	read(File *file);

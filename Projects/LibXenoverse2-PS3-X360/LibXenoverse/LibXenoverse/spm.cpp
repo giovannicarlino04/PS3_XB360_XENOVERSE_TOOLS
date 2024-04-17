@@ -902,7 +902,7 @@ bool Spm::Compile(TiXmlDocument *doc, bool big_endian)
 /*-------------------------------------------------------------------------------\
 |                             Compile				                             |
 \-------------------------------------------------------------------------------*
-bool Spm::Compile(TiXmlDocument *doc, bool big_endian)
+bool Spm::Compile(TiXmlDocument *doc, bool big_endian = true)
 {
 	this->big_endian = big_endian;
 

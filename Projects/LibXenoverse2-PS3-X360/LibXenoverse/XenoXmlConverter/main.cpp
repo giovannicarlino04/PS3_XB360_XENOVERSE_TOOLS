@@ -135,7 +135,7 @@ int main(int argc, char** argv)
 
 			LibXenoverse::EMM* emm = new LibXenoverse::EMM();
 			if(emm->load(filename))
-				emm->save(basefilename2 + ".emm");
+				emm->save(basefilename2 + ".emm", true);
 			delete emm;
 
 
@@ -387,7 +387,7 @@ int main(int argc, char** argv)
 
 			LibXenoverse::Uexp* uexp = new LibXenoverse::Uexp();
 			if (uexp->load(filename))
-				uexp->save(basefilename2 + ".uexp");
+				uexp->save(basefilename2 + ".uexp", true);
 			delete uexp;
 
 

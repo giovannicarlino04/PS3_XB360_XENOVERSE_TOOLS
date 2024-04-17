@@ -679,7 +679,7 @@ bool EMO::CompileFromFile(const std::string &path, bool show_error, bool big_end
 /*-------------------------------------------------------------------------------\
 |                             Compile				                             |
 \-------------------------------------------------------------------------------*/
-bool EMO::Compile(TiXmlDocument *doc, bool big_endian)
+bool EMO::Compile(TiXmlDocument *doc, bool big_endian = true)
 {
 	Reset();
 	this->big_endian = big_endian;

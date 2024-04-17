@@ -88,7 +88,7 @@ public:
 	~AUR(void) { }
 
 	bool	load(string filename);
-	void	save(string filename, bool big_endian=false);
+	void	save(string filename, bool big_endian = true);
 	bool	loadXml(string filename);
 	void	saveXml(string filename);
 	void	read(File *file);

@@ -245,7 +245,7 @@ TiXmlElement* Obl::export_Xml()
 /*-------------------------------------------------------------------------------\
 |                             Compile				                             |
 \-------------------------------------------------------------------------------*/
-bool Obl::Compile(TiXmlDocument *doc, bool big_endian)
+bool Obl::Compile(TiXmlDocument *doc, bool big_endian )
 {
 	this->big_endian = big_endian;
 

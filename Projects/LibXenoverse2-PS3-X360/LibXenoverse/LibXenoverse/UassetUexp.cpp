@@ -36,8 +36,8 @@ bool UassetUexp::load(string filename)
 void UassetUexp::save(string filename, bool big_endian)
 {
 	string basename = filenameNoExtension(filename);
-	uasset->save(basename + ".uasset");
-	uexp->save(basename + ".uexp");
+	uasset->save(basename + ".uasset", true);
+	uexp->save(basename + ".uexp", true);
 }
 
 

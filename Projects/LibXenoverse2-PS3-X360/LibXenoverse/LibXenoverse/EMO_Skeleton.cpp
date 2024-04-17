@@ -1301,7 +1301,7 @@ void EMO_Bone::DecompileTransformationMatrix(TiXmlElement *root, const char *nam
 
 
 
-bool EMO_Skeleton::Compile(TiXmlDocument *doc, bool big_endian)
+bool EMO_Skeleton::Compile(TiXmlDocument *doc, bool big_endian = true)
 {
 	Reset();
 	this->big_endian = big_endian;

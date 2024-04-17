@@ -1395,7 +1395,7 @@ TiXmlElement* Havok_TagItem::exportXml()
 /*-------------------------------------------------------------------------------\
 |                             Compile				                             |
 \-------------------------------------------------------------------------------*/
-bool Havok::Compile(TiXmlDocument *doc, bool big_endian)
+bool Havok::Compile(TiXmlDocument *doc, bool big_endian )
 {
 	this->big_endian = big_endian;
 

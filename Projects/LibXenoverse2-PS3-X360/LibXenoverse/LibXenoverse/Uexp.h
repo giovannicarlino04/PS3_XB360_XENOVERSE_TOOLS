@@ -196,7 +196,7 @@ public:
 	virtual ~Uexp(void);
 
 	bool	load(string filename);
-	void	save(string filename, bool big_endian = true);
+	void	save(string filename, bool big_endian);
 	void	read(File *file);
 	void	write(File *file);
 	size_t	getFileSize();

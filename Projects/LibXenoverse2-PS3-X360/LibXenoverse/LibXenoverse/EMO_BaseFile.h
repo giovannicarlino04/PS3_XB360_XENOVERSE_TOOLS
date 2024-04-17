@@ -61,7 +61,7 @@ class EMO_BaseFile
 {
 public:
 
-	bool big_endian;
+	bool big_endian = true;
 	std::string name;
 
 	uint64_t val64(uint64_t val) const;
@@ -100,7 +100,7 @@ public:
 	virtual bool LoadFromFile(const std::string &path, bool show_error = true);
 
 	virtual TiXmlDocument *Decompile() const { return nullptr; }
-	virtual bool Compile(TiXmlDocument *doc, bool big_endian = true) { UNUSED(doc); UNUSED(big_endian); return NULL; }
+	virtual bool Compile(TiXmlDocument *doc, bool big_endian ) { UNUSED(doc); UNUSED(big_endian); return NULL; }
 
 	virtual bool DecompileToFile(const std::string &path, bool show_error = true, bool build_path = false);
 	virtual bool CompileFromFile(const std::string &path, bool show_error = true, bool big_endian = true);

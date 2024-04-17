@@ -238,7 +238,7 @@ public:
 	virtual bool load(string filename) { return this->SmartLoad(filename); }
 	virtual bool Load(const uint8_t *buf, unsigned int size);
 	virtual uint8_t *CreateFile(unsigned int *psize);
-	virtual bool Compile(TiXmlDocument *doc, bool big_endian = true);
+	virtual bool Compile(TiXmlDocument *doc, bool big_endian);
 	virtual TiXmlDocument *Decompile() const;
 	virtual bool DecompileToFile(const std::string &path, bool show_error = true, bool build_path = false);
 	virtual bool CompileFromFile(const std::string &path, bool show_error = true, bool big_endian = true);

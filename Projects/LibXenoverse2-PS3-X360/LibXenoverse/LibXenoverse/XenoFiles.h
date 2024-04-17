@@ -66,7 +66,7 @@ namespace LibXenoverse {
 		size_t comparison_size;
 
 		char signature[8];
-		bool big_endian;
+		bool big_endian = true;
 	public:
 		File(string filename, string mode);
 		void writeHeader(string new_signature, bool is_big_endian);

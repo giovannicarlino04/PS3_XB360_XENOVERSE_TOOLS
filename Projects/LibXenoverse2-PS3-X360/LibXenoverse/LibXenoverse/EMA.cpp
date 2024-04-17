@@ -933,7 +933,7 @@ void EMAKeyframe::Decompile(TiXmlNode *root, const std::vector<float> &values, c
 
 
 
-bool EMA::CompileFromFile(const std::string &path, bool show_error, bool big_endian)
+bool EMA::CompileFromFile(const std::string &path, bool show_error, bool big_endian )
 {
 	printf("Ema is being loaded from .xml file. This process may take a while.\n");
 	bool ret = EMO_BaseFile::CompileFromFile(path, show_error, big_endian);

@@ -83,7 +83,7 @@ class SDS
 		vector<SDSShaderProgram *> &GetshaderPrograms() { return shaderPrograms; }
 
 		bool load(string filename);
-		void save(string filename, bool big_endian=false);
+		void save(string filename, bool big_endian = true);
 		void read(File *file);
 		void write(File *file);
 		void readXML(TiXmlElement *root);

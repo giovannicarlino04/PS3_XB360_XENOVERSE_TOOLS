@@ -323,7 +323,7 @@ public:
 	void Decompile(TiXmlNode *root) const;
 	virtual TiXmlDocument *Decompile() const override;
 	bool Compile(const TiXmlElement *root);
-	virtual bool Compile(TiXmlDocument *doc, bool big_endian = true) override;
+	virtual bool Compile(TiXmlDocument *doc, bool big_endian) override;
 
 	virtual bool SaveSkeletonToFile(const std::string &path, bool show_error = true, bool build_path = false);
 	virtual bool DecompileSkeletonToFile(const std::string &path, bool show_error = true, bool build_path = false);

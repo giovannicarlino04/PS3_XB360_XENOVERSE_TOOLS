@@ -5038,7 +5038,7 @@ TiXmlElement* FMP_Destruction_sub::export_Xml(bool withComments)
 /*-------------------------------------------------------------------------------\
 |                             Compile				                             |
 \-------------------------------------------------------------------------------*/
-bool FmpFile::Compile(TiXmlDocument *doc, bool big_endian)
+bool FmpFile::Compile(TiXmlDocument *doc, bool big_endian )
 {
 	this->big_endian = big_endian;
 

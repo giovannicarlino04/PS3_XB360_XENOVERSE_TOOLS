@@ -205,7 +205,7 @@ void EMMParameter::read(File *file)
 /*-------------------------------------------------------------------------------\
 |                             save					                             |
 \-------------------------------------------------------------------------------*/
-void EMM::save(string filename, bool big_endian)
+void EMM::save(string filename, bool big_endian = true)
 {
 	File file(filename, LIBXENOVERSE_FILE_WRITE_BINARY);
 	if (file.valid())

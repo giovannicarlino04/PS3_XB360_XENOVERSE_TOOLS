@@ -1010,7 +1010,7 @@ void Mdl::write_Coloration(BinColorTag &binCt, TiXmlElement *parent, const uint8
 	
 
 	emd.save(filenameNoExtension(originefilename) + ".emd");
-	emm.save(filenameNoExtension(originefilename) + ".emm");
+	emm.save(filenameNoExtension(originefilename) + ".emm", true);
 	if (useTextures)
 		emb.save(filenameNoExtension(originefilename) + ".emb");
 

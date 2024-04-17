@@ -47,7 +47,7 @@ bool Uasset::load(string filename)
 /*-------------------------------------------------------------------------------\
 |                             save					                             |
 \-------------------------------------------------------------------------------*/
-void Uasset::save(string filename, bool big_endian)
+void Uasset::save(string filename, bool big_endian = true)
 {
 	File file(filename, LIBXENOVERSE_FILE_WRITE_BINARY);
 	if (file.valid())

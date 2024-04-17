@@ -4,44 +4,46 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        AUR aur = new AUR();
+        bool big_endian = true;
+
         CMS cms = new CMS();
         CSO cso = new CSO();
 
         if (args.Length == 0)
             throw new Exception("No args were given");
 
-        string fileExtension = System.IO.Path.GetExtension(args[0]);
-
-        switch (fileExtension.ToLower())
+        foreach (var arg in args)
         {
-            case ".aur":
-                aur.load(args[0]);
-                aur.AUR2XML(args[0].Replace(".aur", ".aurxml"), aur);
-                break;
-            case ".aurxml":
-                AUR.XML2AUR(args[0], args[0].Replace(".aurxml", ".aur"));
-                break;
+            string fileExtension = System.IO.Path.GetExtension(arg);
 
-            case ".cms":
-                cms.Load(args[0]);
-                cms.CMS2XML(args[0].Replace(".cms", ".cmsxml"), cms);
-                break;
-            case ".cmsxml":
-                CMS.XML2CMS(args[0], args[0].Replace(".cmsxml", ".cms"));
-                break;
+            switch (fileExtension.ToLower())
+            {
+                case ".cms":
+                    if (big_endian)
+                        cms.LoadBE(arg);
+                    else
+                        cms.LoadLE(arg);
+                    cms.CMS2XML(arg.Replace(".cms", ".cmsxml"), cms);
+                    break;
+                case ".cmsxml":
+                    CMS.XML2CMS(arg, arg.Replace(".cmsxml", ".cms"), big_endian);
+                    break;
 
-            case ".cso":
-                cso.Load(args[0]);
-                cso.CSO2XML(args[0].Replace(".cso", ".csoxml"), cso);
-                break;
-            case ".csoxml":
-                CSO.XML2CSO(args[0], args[0].Replace(".csoxml", ".cso"));
-                break;
+                case ".cso":
+                    if (big_endian)
+                        cso.LoadBE(arg);
+                    else
+                        cso.LoadLE(arg);
+                    cso.CSO2XML(arg.Replace(".cso", ".csoxml"), cso);
+                    break;
+                case ".csoxml":
+                    CSO.XML2CSO(arg, arg.Replace(".csoxml", ".cso"), big_endian);
+                    break;
 
 
-            default:
-                throw new NotImplementedException("Unsupported/Not implemented file extension");
+                default:
+                    throw new NotImplementedException("Unsupported/Not implemented file extension");
+            }
         }
     }
 }

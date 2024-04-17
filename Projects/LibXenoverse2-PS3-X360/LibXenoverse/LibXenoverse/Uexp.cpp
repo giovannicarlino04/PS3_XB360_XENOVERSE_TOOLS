@@ -194,7 +194,7 @@ void Uexp_Bndfll_File::read(File *file, size_t startOffsetSub, size_t startOffse
 /*-------------------------------------------------------------------------------\
 |                             save					                             |
 \-------------------------------------------------------------------------------*/
-void Uexp::save(string filename, bool big_endian)
+void Uexp::save(string filename, bool big_endian = true)
 {
 	File file(filename, LIBXENOVERSE_FILE_WRITE_BINARY);
 	if (file.valid())

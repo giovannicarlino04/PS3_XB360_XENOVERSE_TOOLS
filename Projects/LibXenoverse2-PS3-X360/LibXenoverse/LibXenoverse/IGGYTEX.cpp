@@ -55,7 +55,7 @@ bool IGGYTEX::load(string filename)
 
 
 
-void IGGYTEX::save(string filename, bool enable_filenames, bool big_endian)
+void IGGYTEX::save(string filename, bool enable_filenames, bool big_endian )
 {
 	File file(filename, LIBXENOVERSE_FILE_WRITE_BINARY);
 	if (file.valid())
