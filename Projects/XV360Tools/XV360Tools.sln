@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XV360Lib", "XV360Lib\XV360L
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XVXMLSerializer", "XVXMLSerializer\XVXMLSerializer.csproj", "{A2F59ADA-40E2-4B5D-9A85-903A5719A772}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IggyTool", "IggyTool\IggyTool.csproj", "{5921588D-B59C-49EF-A3D7-776D0AE0F07A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A2F59ADA-40E2-4B5D-9A85-903A5719A772}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2F59ADA-40E2-4B5D-9A85-903A5719A772}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2F59ADA-40E2-4B5D-9A85-903A5719A772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5921588D-B59C-49EF-A3D7-776D0AE0F07A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5921588D-B59C-49EF-A3D7-776D0AE0F07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5921588D-B59C-49EF-A3D7-776D0AE0F07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5921588D-B59C-49EF-A3D7-776D0AE0F07A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

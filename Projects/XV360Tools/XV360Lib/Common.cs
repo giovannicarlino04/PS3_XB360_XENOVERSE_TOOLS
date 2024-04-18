@@ -26,6 +26,17 @@ namespace XV360Lib
                     Console.WriteLine($"File {arg} is Little Endian");
                     return false;
                 }
+                //00 09 For iggy
+                else if (byte1 == 0x00 && byte2 == 0x09)
+                {
+                    Console.WriteLine($"File {arg} is Big Endian");
+                    return true;
+                }
+                else if (byte1 == 0x09 && byte2 == 0x00)
+                {
+                    Console.WriteLine($"File {arg} is Little Endian");
+                    return false;
+                }
                 else
                 {
                     throw new ArgumentException($"File {arg} not recognized");

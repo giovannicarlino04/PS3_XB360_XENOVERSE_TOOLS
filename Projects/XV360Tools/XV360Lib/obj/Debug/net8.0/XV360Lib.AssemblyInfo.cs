@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XV360Lib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0c2ccbe01b1cd4694f3b5185725f0b00aff7e82")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40202f5c0a4c29365337439bfda4bb9a0e151ece")]
 [assembly: System.Reflection.AssemblyProductAttribute("XV360Lib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XV360Lib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
