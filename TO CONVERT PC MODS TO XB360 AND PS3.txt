@@ -1,0 +1,3 @@
+1) Drag the original emd/emb and other files into their respective LE_ tools
+
+2) Drag the output files into the other tools WITHOUT the LE_ prefix
