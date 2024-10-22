@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "XVXMLSerializer/1.0.0": {
+        "dependencies": {
+          "XV360Lib": "1.0.0"
+        },
+        "runtime": {
+          "XVXMLSerializer.dll": {}
+        }
+      },
+      "XV360Lib/1.0.0": {
+        "runtime": {
+          "XV360Lib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "XVXMLSerializer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "XV360Lib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
