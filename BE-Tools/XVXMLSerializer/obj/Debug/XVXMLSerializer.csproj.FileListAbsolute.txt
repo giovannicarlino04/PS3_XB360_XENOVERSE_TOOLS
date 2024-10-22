@@ -1,0 +1,9 @@
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\BE-Tools\XVXMLSerializer\bin\Debug\XVXMLSerializer.exe
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\BE-Tools\XVXMLSerializer\bin\Debug\XVXMLSerializer.pdb
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\BE-Tools\XVXMLSerializer\bin\Debug\XV360Lib.dll
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\BE-Tools\XVXMLSerializer\obj\Debug\XVXMLSerializer.csproj.AssemblyReference.cache
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\BE-Tools\XVXMLSerializer\obj\Debug\XVXMLSerializer.csproj.CoreCompileInputs.cache
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\BE-Tools\XVXMLSerializer\obj\Debug\XVXMLSer.C06AE843.Up2Date
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\BE-Tools\XVXMLSerializer\obj\Debug\XVXMLSerializer.exe
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\BE-Tools\XVXMLSerializer\obj\Debug\XVXMLSerializer.pdb
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\BE-Tools\XVXMLSerializer\bin\Debug\XV360Lib.pdb

@@ -1,0 +1,6 @@
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\BE-Tools\XVXMLSerializer\XV360Lib\bin\Debug\XV360Lib.dll
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\BE-Tools\XVXMLSerializer\XV360Lib\bin\Debug\XV360Lib.pdb
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\BE-Tools\XVXMLSerializer\XV360Lib\obj\Debug\XV360Lib.csproj.AssemblyReference.cache
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\BE-Tools\XVXMLSerializer\XV360Lib\obj\Debug\XV360Lib.csproj.CoreCompileInputs.cache
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\BE-Tools\XVXMLSerializer\XV360Lib\obj\Debug\XV360Lib.dll
+C:\Users\Giovanni\Desktop\Repositories\PS3_XB360_XENOVERSE_TOOLS\BE-Tools\XVXMLSerializer\XV360Lib\obj\Debug\XV360Lib.pdb

@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XVXMLSerializer", "XVXMLSerializer.csproj", "{A9682830-2FBE-4601-BEA6-414C56E16701}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XV360Lib", "XV360Lib\XV360Lib.csproj", "{B9512E59-5C1C-4479-A716-A993A2541B7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9682830-2FBE-4601-BEA6-414C56E16701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9682830-2FBE-4601-BEA6-414C56E16701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9682830-2FBE-4601-BEA6-414C56E16701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9682830-2FBE-4601-BEA6-414C56E16701}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9512E59-5C1C-4479-A716-A993A2541B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9512E59-5C1C-4479-A716-A993A2541B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9512E59-5C1C-4479-A716-A993A2541B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9512E59-5C1C-4479-A716-A993A2541B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
