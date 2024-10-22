@@ -1,0 +1,162 @@
+15:26:42: Creating resource group General
+15:26:42: Creating resource group Internal
+15:26:42: Creating resource group Autodetect
+15:26:42: SceneManagerFactory for type 'DefaultSceneManager' registered.
+15:26:42: Registering ResourceManager for type Material
+15:26:42: Registering ResourceManager for type Mesh
+15:26:42: Registering ResourceManager for type Skeleton
+15:26:42: MovableObjectFactory for type 'ParticleSystem' registered.
+15:26:42: OverlayElementFactory for type Panel registered.
+15:26:42: OverlayElementFactory for type BorderPanel registered.
+15:26:42: OverlayElementFactory for type TextArea registered.
+15:26:42: Registering ResourceManager for type Font
+15:26:42: ArchiveFactory for archive type FileSystem registered.
+15:26:42: ArchiveFactory for archive type Zip registered.
+15:26:42: DDS codec registering
+15:26:42: FreeImage version: 3.13.1
+15:26:42: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+15:26:42: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2,pfm,pct,pict,pic,bay,bmq,cr2,crw,cs1,dc2,dcr,dng,erf,fff,hdr,k25,kdc,mdc,mos,mrw,nef,orf,pef,pxn,raf,raw,rdc,sr2,srf,arw,3fr,cine,ia,kc2,mef,nrw,qtk,rw2,sti,drf,dsc,ptx,cap,iiq,rwz
+15:26:42: Registering ResourceManager for type HighLevelGpuProgram
+15:26:42: Registering ResourceManager for type Compositor
+15:26:42: MovableObjectFactory for type 'Entity' registered.
+15:26:42: MovableObjectFactory for type 'Light' registered.
+15:26:42: MovableObjectFactory for type 'BillboardSet' registered.
+15:26:42: MovableObjectFactory for type 'ManualObject' registered.
+15:26:42: MovableObjectFactory for type 'BillboardChain' registered.
+15:26:42: MovableObjectFactory for type 'RibbonTrail' registered.
+15:26:42: Loading library .\RenderSystem_Direct3D9
+15:26:42: Installing plugin: D3D9 RenderSystem
+15:26:42: D3D9 : Direct3D9 Rendering Subsystem created.
+15:26:42: D3D9: Driver Detection Starts
+15:26:42: D3D9: Driver Detection Ends
+15:26:42: Plugin successfully installed
+15:26:42: *-*-* OGRE Initialising
+15:26:42: *-*-* Version 1.7.1 (Cthugha)
+15:26:42: Loading library RenderSystem_Direct3D9
+15:26:42: Installing plugin: D3D9 RenderSystem
+15:26:42: D3D9 : Direct3D9 Rendering Subsystem created.
+15:26:42: D3D9: Driver Detection Starts
+15:26:42: D3D9: Driver Detection Ends
+15:26:42: Plugin successfully installed
+15:26:42: CPU Identifier & Features
+15:26:42: -------------------------
+15:26:42:  *   CPU ID: GenuineIntel: Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz
+15:26:42:  *      SSE: yes
+15:26:42:  *     SSE2: yes
+15:26:42:  *     SSE3: yes
+15:26:42:  *      MMX: yes
+15:26:42:  *   MMXEXT: yes
+15:26:42:  *    3DNOW: no
+15:26:42:  * 3DNOWEXT: no
+15:26:42:  *     CMOV: yes
+15:26:42:  *      TSC: yes
+15:26:42:  *      FPU: yes
+15:26:42:  *      PRO: yes
+15:26:42:  *       HT: no
+15:26:42: -------------------------
+15:26:42: D3D9 : Subsystem Initialising
+15:26:42: Registering ResourceManager for type Texture
+15:26:42: Registering ResourceManager for type GpuProgram
+15:26:42: ***************************************
+15:26:42: *** D3D9 : Subsystem Initialised OK ***
+15:26:42: ***************************************
+15:26:42: D3D9RenderSystem::_createRenderWindow "OgreWindow", 100x30 windowed  miscParams: FSAA=8 (Quality) parentWindowHandle=7472656 vsync=true 
+15:26:42: WM_SIZE
+15:26:42: WM_MOVE
+15:26:42: D3D9 : Created D3D9 Rendering Window 'OgreWindow' : 116x69, 32bpp
+15:26:42: D3D9: Vertex texture format supported - PF_A8R8G8B8
+15:26:42: D3D9: Vertex texture format supported - PF_B8G8R8A8
+15:26:42: D3D9: Vertex texture format supported - PF_FLOAT16_RGB
+15:26:42: D3D9: Vertex texture format supported - PF_FLOAT16_RGBA
+15:26:42: D3D9: Vertex texture format supported - PF_FLOAT32_RGB
+15:26:42: D3D9: Vertex texture format supported - PF_FLOAT32_RGBA
+15:26:42: D3D9: Vertex texture format supported - PF_R8G8B8A8
+15:26:42: D3D9: Vertex texture format supported - PF_DEPTH
+15:26:42: D3D9: Vertex texture format supported - PF_FLOAT16_R
+15:26:42: D3D9: Vertex texture format supported - PF_FLOAT32_R
+15:26:42: D3D9: Vertex texture format supported - PF_FLOAT16_GR
+15:26:42: D3D9: Vertex texture format supported - PF_FLOAT32_GR
+15:26:42: D3D9: Vertex texture format supported - PF_PVRTC_RGB2
+15:26:42: D3D9: Vertex texture format supported - PF_PVRTC_RGBA2
+15:26:42: D3D9: Vertex texture format supported - PF_PVRTC_RGB4
+15:26:42: D3D9: Vertex texture format supported - PF_PVRTC_RGBA4
+15:26:42: RenderSystem capabilities
+15:26:42: -------------------------
+15:26:42: RenderSystem Name: Direct3D9 Rendering Subsystem
+15:26:42: GPU Vendor: nvidia
+15:26:42: Device Name: Monitor-1-NVIDIA GeForce GTX 1050 Ti
+15:26:42: Driver Version: 32.0.15.6590
+15:26:42:  * Fixed function pipeline: yes
+15:26:42:  * Hardware generation of mipmaps: yes
+15:26:42:  * Texture blending: yes
+15:26:42:  * Anisotropic texture filtering: yes
+15:26:42:  * Dot product texture operation: yes
+15:26:42:  * Cube mapping: yes
+15:26:42:  * Hardware stencil buffer: yes
+15:26:42:    - Stencil depth: 8
+15:26:42:    - Two sided stencil support: yes
+15:26:42:    - Wrap stencil values: yes
+15:26:42:  * Hardware vertex / index buffers: yes
+15:26:42:  * Vertex programs: yes
+15:26:42:  * Number of floating-point constants for vertex programs: 256
+15:26:42:  * Number of integer constants for vertex programs: 16
+15:26:42:  * Number of boolean constants for vertex programs: 16
+15:26:42:  * Fragment programs: yes
+15:26:42:  * Number of floating-point constants for fragment programs: 224
+15:26:42:  * Number of integer constants for fragment programs: 16
+15:26:42:  * Number of boolean constants for fragment programs: 16
+15:26:42:  * Geometry programs: no
+15:26:42:  * Number of floating-point constants for geometry programs: 0
+15:26:42:  * Number of integer constants for geometry programs: 0
+15:26:42:  * Number of boolean constants for geometry programs: 0
+15:26:42:  * Supported Shader Profiles: hlsl ps_1_1 ps_1_2 ps_1_3 ps_1_4 ps_2_0 ps_2_a ps_2_b ps_2_x ps_3_0 vs_1_1 vs_2_0 vs_2_a vs_2_x vs_3_0
+15:26:42:  * Texture Compression: yes
+15:26:42:    - DXT: yes
+15:26:42:    - VTC: no
+15:26:42:    - PVRTC: no
+15:26:42:  * Scissor Rectangle: yes
+15:26:42:  * Hardware Occlusion Query: yes
+15:26:42:  * User clip planes: yes
+15:26:42:  * VET_UBYTE4 vertex element type: yes
+15:26:42:  * Infinite far plane projection: yes
+15:26:42:  * Hardware render-to-texture: yes
+15:26:42:  * Floating point textures: yes
+15:26:42:  * Non-power-of-two textures: yes
+15:26:42:  * Volume textures: yes
+15:26:42:  * Multiple Render Targets: 4
+15:26:42:    - With different bit depths: yes
+15:26:42:  * Point Sprites: yes
+15:26:42:  * Extended point parameters: yes
+15:26:42:  * Max Point Size: 10
+15:26:42:  * Vertex texture fetch: yes
+15:26:42:  * Number of world matrices: 0
+15:26:42:  * Number of texture units: 8
+15:26:42:  * Stencil buffer depth: 8
+15:26:42:  * Number of vertex blend matrices: 0
+15:26:42:    - Max vertex textures: 4
+15:26:42:    - Vertex textures shared: no
+15:26:42:  * Render to Vertex Buffer : no
+15:26:42:  * DirectX per stage constants: yes
+15:26:42: DefaultWorkQueue('Root') initialising on thread main.
+15:26:42: Particle Renderer Type 'billboard' registered
+15:26:42: WM_MOVE
+15:26:42: Added resource location './' of type 'FileSystem' to resource group 'General'
+15:26:42: Added resource location './resources' of type 'FileSystem' to resource group 'General'
+15:26:42: Added resource location './resources/SdkTrays.zip' of type 'Zip' to resource group 'General'
+15:26:42: Parsing scripts for resource group Autodetect
+15:26:42: Finished parsing scripts for resource group Autodetect
+15:26:42: Parsing scripts for resource group General
+15:26:42: Parsing script Xenoviewer.program
+15:26:43: Parsing script Xenoviewer.material
+15:26:43: Parsing script SdkTrays.material
+15:26:43: Parsing script Xenoviewer.compositor
+15:26:43: Parsing script SdkTrays.fontdef
+15:26:43: Parsing script SdkTrays.overlay
+15:26:43: Finished parsing scripts for resource group General
+15:26:43: Parsing scripts for resource group Internal
+15:26:43: Finished parsing scripts for resource group Internal
+15:26:43: WM_MOVE
+15:26:43: WM_SIZE
+15:26:43: D3D9 Device 0x[092F37E0] entered lost state
+15:26:43: !!! Direct3D Device successfully restored.
+15:26:43: D3D9 device: 0x[092F37E0] was reset
